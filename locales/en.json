@@ -11,12 +11,12 @@
           "link": "about"
         },
         {
-          "text": "Planning",
-          "link": "planning"
+          "text": "Features",
+          "link": "features"
         },
         {
-          "text": "Sponsorship",
-          "link": "sponsorship"
+          "text": "Pricing",
+          "link": "pricing"
         },
         {
           "text": "Contact",
@@ -26,13 +26,13 @@
     },
     "hero": {
       "title": "Design Beautiful Cards That Spark Joy",
-      "description": "Cardio is a magical digital card builder that brings your imagination to life. Our platform empowers you to effortlessly design personalized and captivating cards that leave a lasting impression."
+      "description": "NetComDayz is a magical digital card builder that brings your imagination to life. Our platform empowers you to effortlessly design personalized and captivating cards that leave a lasting impression."
     },
     "about": {
-      "title": "About Cardio",
+      "title": "About NetComDayz",
       "description": "Get Started Creating stunning and memorable digital cards for all occasions.",
       "steps": [
-        "Sign up for a Cardio account.",
+        "Sign up for a NetComDayz account.",
         "Explore our collection of stunning card templates.",
         "Customize your chosen template with our intuitive drag and drop editor.",
         "Add personal touches like images, videos, and music to make your cards unique.",
@@ -94,12 +94,12 @@
       "title": "Get in Touch",
       "description": "We're here to assist you. Reach out to our friendly team for any inquiries or support.",
       "contactInfo": {
-        "email": "hello@netcomdayz.com",
+        "email": "hello@NetComDayz.com",
         "phone": "+1 (555) 123-4567"
       }
     },
     "footer": {
-      "text": "© 2023 Netcomdayz. All rights reserved."
+      "text": "© 2023 NetComDayz. All rights reserved."
     }
   }
   
