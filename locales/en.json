@@ -1,105 +1,89 @@
 {
-    "header": {
-      "logo": "NetComDayz",
-      "menuItems": [
-        {
-          "text": "Home",
-          "link": "hero"
-        },
-        {
-          "text": "About",
-          "link": "about"
-        },
-        {
-          "text": "Features",
-          "link": "features"
-        },
-        {
-          "text": "Pricing",
-          "link": "pricing"
-        },
-        {
-          "text": "Contact",
-          "link": "contact"
-        }
-      ]
-    },
-    "hero": {
-      "title": "Design Beautiful Cards That Spark Joy",
-      "description": "NetComDayz is a magical digital card builder that brings your imagination to life. Our platform empowers you to effortlessly design personalized and captivating cards that leave a lasting impression."
-    },
-    "about": {
-      "title": "About NetComDayz",
-      "description": "Get Started Creating stunning and memorable digital cards for all occasions.",
-      "steps": [
-        "Sign up for a NetComDayz account.",
-        "Explore our collection of stunning card templates.",
-        "Customize your chosen template with our intuitive drag and drop editor.",
-        "Add personal touches like images, videos, and music to make your cards unique.",
-        "Preview and share your masterpiece with friends and family."
-      ]
-    },
-    "features": {
-      "title": "Key Features",
-      "list": [
-        "Intuitive drag and drop editor for seamless card customization",
-        "A treasure trove of gorgeous templates for every special moment",
-        "Unleash your creativity with customizable fonts, colors, and backgrounds",
-        "Elevate your cards with rich media: add images, videos, and music",
-        "Responsive design ensures your cards look perfect on any device",
-        "Spread the joy by sharing your cards through social media or email",
-        "Collaborate with friends and family on designing the perfect card",
-        "Track the performance and analytics of your cards to see the smiles you've created",
-        "Seamless integration with popular design tools like Canva and Adobe Creative Cloud"
-      ]
-    },
-    "pricing": {
-      "title": "Pricing",
-      "description": "Choose the plan that fits your style and budget.",
-      "plans": [
-        {
-          "name": "Starter",
-          "price": "$9.99/month",
-          "features": [
-            "Access to 50 stunning card templates",
-            "Basic customization options to personalize your cards",
-            "Unlimited media uploads to make your cards pop",
-            "Standard support to assist you along the way"
-          ]
-        },
-        {
-          "name": "Pro",
-          "price": "$19.99/month",
-          "features": [
-            "Unlock our premium collection of 200+ dazzling card templates",
-            "Advanced customization options for the most intricate designs",
-            "Unleash the full potential with unlimited media uploads",
-            "Priority support to ensure your creativity never hits a roadblock",
-            "Access to exclusive premium templates that will make jaws drop"
-          ]
-        },
-        {
-          "name": "Enterprise",
-          "price": "Custom",
-          "features": [
-            "Tailored card templates designed to perfectly match your brand",
-            "Full access to all features and future updates",
-            "Dedicated account manager for personalized support",
-            "Advanced analytics and reporting to measure your card's success"
-          ]
-        }
-      ]
-    },
-    "contact": {
-      "title": "Get in Touch",
-      "description": "We're here to assist you. Reach out to our friendly team for any inquiries or support.",
-      "contactInfo": {
-        "email": "hello@NetComDayz.com",
-        "phone": "+1 (555) 123-4567"
+  "header": {
+    "logo": "NetComDayz",
+    "menuItems": [
+      {
+        "text": "Home",
+        "link": "hero"
+      },
+      {
+        "text": "About",
+        "link": "about"
+      },
+      {
+        "text": "Features",
+        "link": "features"
+      },
+      {
+        "text": "Pricing",
+        "link": "pricing"
+      },
+      {
+        "text": "Contact",
+        "link": "contact"
       }
-    },
-    "footer": {
-      "text": "© 2023 NetComDayz. All rights reserved."
+    ]
+  },
+  "hero": {
+    "title": "Welcome to NetComDayz",
+    "description": "Join us for the 8th edition of NetComDayz, a premier event showcasing the latest in cloud, network, development, and communication technologies."
+  },
+  "about": {
+    "title": "About NetComDayz",
+    "description": "NetComDayz is a premier event dedicated to highlighting the latest advancements in cloud, network, development, and communication technologies. It brings together industry experts, thought leaders, and enthusiasts to share knowledge, network, and explore future possibilities.",
+    "steps": [
+      "Attend insightful keynotes and panel discussions by industry experts",
+      "Participate in hands-on workshops and training sessions",
+      "Explore cutting-edge products and solutions in the exhibition area",
+      "Engage in networking opportunities with industry professionals",
+      "Take part in exciting competitions and pitch your innovative ideas"
+    ]
+  },
+  "features": {
+    "title": "Key Highlights",
+    "list": [
+      "Insightful keynotes and panel discussions by industry experts",
+      "Hands-on workshops and training sessions on the latest technologies",
+      "Exhibition area featuring cutting-edge products and solutions",
+      "Networking opportunities with industry professionals",
+      "Competitions to showcase your problem-solving skills and innovative ideas"
+    ]
+  },
+  "pricing": {
+    "title": "Registration",
+    "description": "Secure your spot at NetComDayz and join us for this exciting event.",
+    "plans": [
+      {
+        "name": "General Pass",
+        "price": "$99",
+        "features": [
+          "Access to all sessions and workshops",
+          "Entry to the exhibition area",
+          "Networking opportunities",
+          "Event swag bag"
+        ]
+      },
+      {
+        "name": "VIP Pass",
+        "price": "$199",
+        "features": [
+          "Priority seating in keynotes and sessions",
+          "Exclusive access to VIP lounge",
+          "One-on-one meetings with industry experts",
+          "VIP event swag bag"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you have any questions or inquiries, feel free to reach out to us.",
+    "contactInfo": {
+      "email": "info@netcomdayz.com",
+      "phone": "+1 (123) 456-7890"
     }
+  },
+  "footer": {
+    "text": "© 2023 NetComDayz. All rights reserved."
   }
-  
+}
