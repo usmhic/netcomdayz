@@ -1,92 +1,103 @@
 import React, { useState } from 'react';
-import { FiMoon, FiSun, FiGlobe, FiMenu } from 'react-icons/fi'; // Import icons from React Icons
+import { Link } from 'react-scroll';
+import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
 
-const Header = ({ logo, menuItems, isDarkMode, handleToggle, handleLanguageToggle, language }) => {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const handleClick = (link) => {
-    const element = document.getElementById(link);
-    element.scrollIntoView({ behavior: 'smooth' });
-    setShowMenu(false);
-  };
+const Header = ({ logo, menuItems, isDarkMode, handleToggle, language, handleChangeLanguage }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
-    setShowMenu(!showMenu);
+    setIsMenuOpen((prevState) => !prevState);
   };
 
   return (
-    <header className="flex justify-between items-center py-4 px-6 bg-white dark:bg-gray-900">
-      <div className="flex items-center">
-        <div className="text-2xl font-bold text-gray-800 dark:text-white">{logo}</div>
-        <div className="ml-auto">
-          <button
-            className="md:hidden text-gray-800 dark:text-white focus:outline-none"
-            onClick={handleMenuToggle}
+    <header className="bg-gray-100 dark:bg-gray-900">
+      <div className="container mx-auto py-4 px-6 flex items-center justify-between">
+        <div className="flex items-center">
+          <Link
+            to="hero"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="text-4xl font-bold tracking-wider"
           >
-            <FiMenu className="text-2xl" />
+            <img src={logo} alt="Logo" className="h-16 w-auto" />
+          </Link>
+        </div>
+
+        <nav className="hidden md:block">
+          <ul className="flex items-center space-x-4">
+            {menuItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  to={item.link}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className="text-base font-medium hover:text-gray-600 cursor-pointer"
+                >
+                  {item.text}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <div className="flex items-center md:hidden">
+          <button
+            className="focus:outline-none"
+            onClick={handleMenuToggle}
+            aria-label="Toggle Menu"
+          >
+            {isMenuOpen ? (
+              <FiX className="w-6 h-6 fill-current cursor-pointer" />
+            ) : (
+              <FiMenu className="w-6 h-6 fill-current cursor-pointer" />
+            )}
           </button>
         </div>
-      </div>
-      <nav
-        className={`md:flex items-start md:items-center ${
-          showMenu ? 'block' : 'hidden'
-        } md:space-x-4 mt-4 md:mt-0`}
-      >
-        <ul className="flex flex-col md:flex-row md:space-x-4">
-          {menuItems.map((menuItem, index) => (
-            <li
-              key={index}
-              className="cursor-pointer text-gray-800 dark:text-white hover:text-purple-500"
-              onClick={() => handleClick(menuItem.link)}
-            >
-              {menuItem.text}
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <div className="flex items-center space-x-2">
-        <label htmlFor="darkModeToggle" className="relative">
-          <input
-            type="checkbox"
-            id="darkModeToggle"
-            className="sr-only"
-            checked={isDarkMode}
-            onChange={handleToggle}
-          />
-          <div className="w-12 h-6 bg-gray-300 rounded-full dark:bg-gray-600">
-            <div
-              className={`${
-                isDarkMode ? 'translate-x-6 bg-purple-500' : 'translate-x-0 bg-yellow-500'
-              } w-6 h-6 rounded-full shadow-md transform transition-transform duration-300 ease-in-out`}
-            >
-              {/* Use the FiMoon and FiSun icons from React Icons */}
-              {isDarkMode ? (
-                <FiMoon className="absolute top-0.5 left-0.5 -translate-y-0.25 text-white text-lg" />
-              ) : (
-                <FiSun className="absolute top-0.5 left-0.5 -translate-y-0.25 text-white text-lg" />
-              )}
-            </div>
-          </div>
-        </label>
 
-        <div className="relative">
+        <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
+          <ul className="mt-2 space-y-4">
+            {menuItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  to={item.link}
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className="block text-base font-medium hover:text-gray-600 cursor-pointer"
+                  onClick={handleMenuToggle}
+                >
+                  {item.text}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="flex items-center">
+          <button
+            className="flex items-center focus:outline-none mr-2"
+            onClick={handleToggle}
+            aria-label="Toggle Dark Mode"
+          >
+            {isDarkMode ? (
+              <FiSun className="w-6 h-6 fill-current cursor-pointer" />
+            ) : (
+              <FiMoon className="w-6 h-6 fill-current cursor-pointer" />
+            )}
+          </button>
+
           <select
-            className={`opacity-0 absolute top-0 right-0 h-full w-full cursor-pointer ${
-              isDarkMode ? 'text-white' : 'text-gray-800'
-            }`}
             value={language}
-            onChange={handleLanguageToggle}
+            onChange={(e) => handleChangeLanguage(e.target.value)}
+            className="block py-2 px-3 border border-gray-300 rounded-md text-base font-medium text-gray-800 dark:text-gray-100 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-rose-500 cursor-pointer"
           >
             <option value="en">English</option>
-            <option value="es">Español</option>
+            <option value="ar">العربية</option>
             <option value="fr">Français</option>
+            <option value="es">Español</option>
           </select>
-          {/* Use the FiGlobe icon from React Icons */}
-          <FiGlobe
-            className={`text-gray-800 dark:text-white text-lg cursor-pointer ${
-              isDarkMode ? 'dark:text-gray-200' : 'dark:text-gray-800'
-            }`}
-          />
         </div>
       </div>
     </header>

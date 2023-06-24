@@ -1,48 +1,65 @@
 import React, { useState } from 'react';
 
-const About = ({ title, description, steps }) => {
-  const [selectedStep, setSelectedStep] = useState(null);
+const About = ({ title, description, steps, next, edition, highlights }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
 
-  const handleStepClick = (index) => {
-    setSelectedStep(index === selectedStep ? null : index);
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
   };
 
   return (
-    <section id="about" className="py-16">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">{title}</h2>
-        <p className="text-lg mx-auto max-w-lg mb-6">{description}</p>
-        <div className="flex flex-wrap justify-center items-center">
-          {steps && Array.isArray(steps) && (
-            <div className="max-w-5xl grid grid-cols-3 gap-4">
-              {steps.map((step, index) => (
-                <div
-                  key={index}
-                  className={`flex flex-col items-center p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md transition-all ${
-                    index === selectedStep ? 'transform scale-105' : ''
-                  }`}
-                  onMouseEnter={() => handleStepClick(index)}
-                  onMouseLeave={() => handleStepClick(null)}
-                >
-                  <div className="w-12 h-12 bg-purple-500 text-white rounded-full flex items-center justify-center">
-                    <span className="text-lg">{index + 1}</span>
-                  </div>
-                  <p
-                    className={`mt-4 text-gray-800 dark:text-white ${
-                      index === selectedStep ? 'text-center font-bold text-lg' : 'text-center text-lg'
-                    }`}
-                  >
+    <section id="about" className="bg-gray-100 dark:bg-gray-900 py-16">
+      <div className="container mx-auto px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
+            {title}
+          </h2>
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 text-center">
+            {description}
+          </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {steps.map((step, index) => (
+              <div key={index} className="flex items-center">
+                <div className="bg-rose-100 dark:bg-rose-900 rounded-md p-4">
+                  <span className="text-4xl text-rose-600 dark:text-rose-300 font-bold">
+                    {index + 1}
+                  </span>
+                </div>
+                <div className="ml-4">
+                  <p className="text-gray-600 dark:text-gray-300">
                     {step}
                   </p>
                 </div>
-              ))}
-            </div>
-          )}
-        </div>
-        <div className="mt-8">
-          <button className="bg-purple-500 text-white py-3 px-6 rounded-full font-semibold shadow-lg transition duration-300 ease-in-out hover:bg-purple-600">
-            Get Started
-          </button>
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <button
+              onClick={toggleExpand}
+              className="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-full shadow-md text-white bg-rose-600 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500 transition-colors duration-300"
+            >
+              {isExpanded ? `${edition}` : next}
+            </button>
+            {isExpanded && (
+              <>
+                <div className="mt-12">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    {highlights.map((highlight, index) => (
+                      <div
+                        key={index}
+                        className="p-6 bg-white dark:bg-gray-800 rounded-lg flex items-center"
+                      >
+                        <span className="text-rose-600 dark:text-rose-300 text-3xl mr-4">
+                          &#8226;
+                        </span>
+                        <p className="text-gray-800 dark:text-gray-100">{highlight}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </section>

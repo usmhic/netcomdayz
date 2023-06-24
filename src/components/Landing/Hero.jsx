@@ -1,19 +1,72 @@
 import React from 'react';
 
-const Hero = ({ title, description }) => {
+const Hero = ({ title, description, buttons, gallery, isDarkMode }) => {
+  const sectionStyle = {
+    background: `linear-gradient(
+      45deg,
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.8)' : 'rgba(255, 154, 158, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(250, 208, 196, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 1)' : 'rgba(250, 208, 196, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(161, 196, 253, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.8)' : 'rgba(194, 233, 251, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(161, 196, 253, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 1)' : 'rgba(180, 235, 242, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(224, 195, 252, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.8)' : 'rgba(224, 195, 252, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.7)' : 'rgba(142, 197, 252, 0.6)'},
+      ${isDarkMode ? 'rgba(0, 0, 0, 0.7)' : 'rgba(142, 197, 252, 0.6)'}
+    )`,
+    opacity: isDarkMode ? 0.9 : 0.6,
+    animation: 'heroBgAnimation 15s ease infinite',
+  };
+
+  const animatedStyle = {
+    opacity: 1,
+    transform: 'scale(1)',
+    transition: 'opacity 0.5s, transform 0.5s',
+  };
+
   return (
-    <section className="py-40 bg-gradient-to-r from-pink-500 to-purple-500 dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-800">
-      <div className="container mx-auto text-center">
-        <h1 className="text-6xl font-extrabold text-white dark:text-gray-100 mb-10">{title}</h1>
-        <p className={`text-xl text-white mb-16 mx-auto max-w-2xl`}>
-          {description}
-        </p>        <div className="flex justify-center">
-          <button className="bg-white text-purple-500 hover:bg-purple-500 hover:text-white py-4 px-10 rounded-full font-semibold shadow-lg transition duration-300 ease-in-out mr-6">
-            Get Started
-          </button>
-          <a href="#about" className="bg-purple-500 text-white hover:bg-white hover:text-purple-500 py-4 px-10 rounded-full font-semibold shadow-lg transition duration-300 ease-in-out">
-            Learn More
-          </a>
+    <section
+      id="hero"
+      style={Object.assign({}, sectionStyle, animatedStyle)}
+      className={`${
+        isDarkMode ? 'bg-gray-900 dark' : 'bg-gray-100'
+      } py-16`}
+    >
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col lg:flex-row items-center justify-between">
+          <div className="w-full lg:w-1/2">
+            <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center lg:text-left">
+              {title}
+            </h1>
+            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+              {description}
+            </p>
+            <div className="flex space-x-4 justify-center lg:justify-start">
+              {buttons.map((button, index) => (
+                <a
+                  key={index}
+                  href={button.link}
+                  className="py-2 px-4 bg-rose-500 hover:bg-rose-600 focus:bg-rose-600 rounded-md text-white text-lg font-medium transition-colors duration-300"
+                >
+                  {button.text}
+                </a>
+              ))}
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 mt-12 lg:mt-0">
+            <div className="grid grid-cols-2 gap-4">
+              {gallery.map((image, index) => (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`Gallery Image ${index + 1}`}
+                  className="rounded-md"
+                />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
