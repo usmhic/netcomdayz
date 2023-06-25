@@ -1,0 +1,163 @@
+{
+  "header": {
+    "light": "/assets/logo/black-trans.png",
+    "dark": "/assets/logo/white-trans.png",
+    "menuItems": [
+      {
+        "text": "حول",
+        "link": "#about"
+      },
+      {
+        "text": "الشركاء",
+        "link": "#partners"
+      },
+      {
+        "text": "رعاية",
+        "link": "#sponsorship"
+      },
+      {
+        "text": "الفريق",
+        "link": "#team"
+      },
+      {
+        "text": "اتصل بنا",
+        "link": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "title": "مرحبًا بك في NetComDayz",
+    "description": "استعد لرحلة استثنائية في NetComDayz، حدث التكنولوجيا الفاخر المليء بالابتكار والمعرفة والإثارة!",
+    "buttons": [
+      {
+        "text": "سجّل",
+        "link": "register",
+        "style": "primary"
+      },
+      {
+        "text": "اعرف المزيد",
+        "link": "#about",
+        "style": "secondary"
+      }
+    ],
+    "gallery": [
+      "https://media.licdn.com/dms/image/C4E22AQGYVnVWmmMcnw/feedshare-shrink_2048_1536/0/1671314456552?e=1689811200&v=beta&t=KO0LtHcPWfrNWYWv2gydvVU1fMlpdQGwUX4_pdgs2j8",
+      "https://media.licdn.com/dms/image/C4E22AQGN_qEMmMoOPg/feedshare-shrink_2048_1536/0/1671314453749?e=1689811200&v=beta&t=USpmZCO726GtzFqfIRkMxE6CrD_KqDH4sWLGui_dM9s",
+      "https://media.licdn.com/dms/image/C4E22AQHUOdmM1_9Heg/feedshare-shrink_2048_1536/0/1671314456521?e=1689811200&v=beta&t=UA3Nfs4p1qGczmr1adlcDxGCCsdB6_3dinzdPcMvW30"
+    ]
+  },
+  "about": {
+    "title": "عن NetComDayz",
+    "description": "NetComDayz ليس حدثًا تقنيًا عاديًا - إنه تجربة غامرة تحتفل بالإمكانات غير المحدودة لتقنيات السحابة والشبكة والتطوير والاتصال. استعد لنسخة مثيرة من NetComDayz التي تسلط الضوء على أفريقيا، مع التركيز الخاص على المغرب وشبابه النابض بالحياة.",
+    "steps": [
+      "انطلق في رحلة مثيرة للاكتشاف مع العروض التقديمية المثيرة والنقاشات الجماعية المدهشة من قبل خبراء الصناعة.",
+      "انغمس في ورش العمل التفاعلية وجلسات التدريب لتعزيز مهارات التكنولوجيا الخاصة بك.",
+      "اطلق العنان لإبداعك واستكشف منطقة المعرض النابضة بالحياة التي تعرض منتجات متطورة وابتكارات مدهشة.",
+      "تواصل وتعاون وبناء علاقات قيمة مع آخرين متحمسين للتكنولوجيا ورواد الصناعة.",
+      "قدم براعة حل المشاكل الخاصة بك وأفكارك المبتكرة في مسابقات وماراثونات تحديد المشاكل مثيرة، واجعل بصمتك على المشهد التكنولوجي."
+    ],
+    "next": "ماذا يأتي بعد ذلك؟",
+    "edition": "الطبعة الثامنة",
+    "highlights": [
+      "عروض تقديمية مدهشة ومناقشات جماعية من قبل رواد الرؤية في الصناعة ستشعل خيالك.",
+      "ورش عمل مشوقة وجلسات تدريب مصممة لدفع مهارات التكنولوجيا الخاصة بك إلى آفاق جديدة.",
+      "منطقة معرض مستقبلية تضم منتجات حديثة وابتكارات مدهشة ستتركك منبهرًا.",
+      "فرص شبكية لا تُنسى مع محبي التكنولوجيا ورواد الصناعة الذين يشتركون في نفس الرؤى، مما يمهد الطريق لتعاونات مثيرة.",
+      "مسابقات ملحمية وماراثونات تحديد المشاكل ستمثل تحديًا لحدودك وتوفر منصة لعرض براعتك."
+    ]
+  },
+  "partners": {
+    "title": "شركاؤنا الرائعون",
+    "list": [
+      {
+        "name": "الشريك 1",
+        "logo": "partner1.png",
+        "description": "الشريك 1، القوة الديناميكية في عالم التكنولوجيا، يمنح الشركات حلولًا متطورة تدفعها إلى آفاق جديدة من النجاح!",
+        "website": "https://www.partner1.com",
+        "linkedin": "https://www.linkedin.com/company/partner1"
+      },
+      {
+        "name": "الشريك 2",
+        "logo": "partner2.png",
+        "description": "الشريك 2، محفز الاتصال، يبني بنية تحتية للشبكات قوية وحلول سريعة، مما يمكّن الشركات في جميع أنحاء العالم.",
+        "website": "https://www.partner2.com",
+        "linkedin": "https://www.linkedin.com/company/partner2"
+      },
+      {
+        "name": "الشريك 3",
+        "logo": "partner3.png",
+        "description": "الشريك 3، سيد التكنولوجيا السحابية، يحقق السحر مع حلولهم السحابية، محولًا الشركات إلى قوى لا يمكن إيقافها.",
+        "website": "https://www.partner3.com",
+        "linkedin": "https://www.linkedin.com/company/partner3"
+      },
+      {
+        "name": "الشريك 4",
+        "logo": "partner4.png",
+        "description": "الشريك 4، سيد التكنولوجيا السحابية، يحقق السحر مع حلولهم السحابية، محولًا الشركات إلى قوى لا يمكن إيقافها.",
+        "website": "https://www.partner4.com",
+        "linkedin": "https://www.linkedin.com/company/partner4"
+      }
+    ]
+  },
+  "sponsorship": {
+    "title": "كن راعيًا خارقًا",
+    "description": "اطلق سراح بطلك الخارق من خلال أن تصبح راعيًا خارقًا في NetComDayz. قم برفع مستوى رؤية علامتك التجارية وانقذ عالم التكنولوجيا!",
+    "benefits": [
+      "استخدم قوى علامتك التجارية الخارقة مع رؤية بارزة في مواد التسويق للحدث.",
+      "تحدث كمتحدث خارق أو مضيف للجلسة، وألهم مجتمع التكنولوجيا بأفكارك الرؤية.",
+      "أسس تحالفات مع أبطال الصناعة خلال فعاليات شبكية حصرية، واستفد من فرص التعاون اللانهائية.",
+      "عرض شعار علامتك التجارية في موقع الحدث والمواد الترويجية، واترك بصمة لا تنسى.",
+      "استخدم قوة بيانات الحضور لحملات التسويق المستهدفة، واستهدف الجمهور المناسب.",
+      "قم بتخصيص حزمة الرعاية الخاصة بك وانقذ اليوم بطريقتك الفريدة!"
+    ],
+    "button": "تواصل معنا"
+  },
+  "team": {
+    "title": "تعرف على أبطال التكنولوجيا لدينا",
+    "members": [
+      {
+        "name": "ربيع الحيلي",
+        "position": "قائد الفريق",
+        "image": "https://media.licdn.com/dms/image/C4D03AQFIhtFmJF2tSQ/profile-displayphoto-shrink_400_400/0/1648424129664?e=1692230400&v=beta&t=TFKONggTolmxAebebfRYmpX1R2jTqx8p8KSTYFlvPSU",
+        "linkedin": "https://www.linkedin.com/in/rab%C3%AF-el-haili-2b7b89180/"
+      },
+      {
+        "name": "ياسمين بوهو",
+        "position": "نائب القائد",
+        "image": "https://media.licdn.com/dms/image/D4D03AQHs_f4zRdDZwQ/profile-displayphoto-shrink_400_400/0/1677414633555?e=1692230400&v=beta&t=wy_XWUUwPHGWM6bxL37t7OwR3g1_Fq8fvPk1YYBUYkI",
+        "linkedin": "https://www.linkedin.com/in/yassmine-bouhou-79804b268/"
+      },
+      {
+        "name": "أسامة هيشو",
+        "position": "مدير المشروع",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHNuwkpGPdgbw/profile-displayphoto-shrink_800_800/0/1677779260274?e=1692230400&v=beta&t=-deiugyfLoKyf7-V4K4uuAMgyKMWLQw752-B87Phips",
+        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
+      },
+      {
+        "name": "عبدالرحيم فازازي",
+        "position": "مدير المشروع",
+        "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216/"
+      },
+      {
+        "name": "فاطمة الزهراء تاويل",
+        "position": "مدير المشروع",
+        "image": "fatima-ezzahrae-taouil.jpg",
+        "linkedin": "https://www.linkedin.com/in/fatimaezzahrae-taouil-aa6787266/"
+      }
+    ]
+  },
+  "contact": {
+    "title": "انضم إلى ثورة التكنولوجيا!",
+    "email": "hi@netcomdayz.com",
+    "phone": "+212 681149075"
+  },
+  "footer": {
+    "text": "NetComDayz - تمكين شباب أفريقيا | طنجة، المغرب | تابعنا على وسائل التواصل الاجتماعي: ",
+    "socialMedia": {
+      "facebook": "https://www.facebook.com/netcomdayz",
+      "linkedin": "https://www.linkedin.com/company/netcomdayz",
+      "instagram": "https://www.instagram.com/netcomdayz"
+    }
+  }
+}
