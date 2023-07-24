@@ -31,42 +31,12 @@
         ]
       },
       {
-        "name": "Opening Ceremony",
-        "participants": ["Registered Participants","Hackathon Mentors","Hackathon Participants", "Forum Participants", "Sponsor Representatives", "Partners Representatives", "Guests" ],
-        "category": "Conference",
-        "startTime": "4:00 PM",
-        "endTime": "4:45 PM",
-        "description": "The event will kick off with an inspiring opening ceremony featuring esteemed speakers and opening remarks."
-      },
-      {
-        "name": "1st Conference",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "4:45 PM",
-        "endTime": "6:00 PM",
-        "description": "Conference on Scientific Research",
-        "subtopics": [
-          "Contributions and Vision of Morocco in Scientific Research",
-          "Exploration of Space Science and Satellite Communications",
-          "Open Science and the Utilization of Open Data",
-          "Effective Utilization of Scientific Data for Various Purposes"
-        ]
-      },
-      {
         "name": "Coffee Break",
         "participants": ["Registered Participants"],
         "category": "Break",
         "startTime": "6:00 PM",
         "endTime": "6:45 PM",
         "description": "Participants can enjoy a coffee break and network with other attendees. Refreshments will be provided during the break."
-      },
-      {
-        "name": "2nd Conference",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "6:45 PM",
-        "endTime": "8:30 PM",
-        "description": "Conference on Space Science and Open Data in Morocco"
       },
       {
         "name": "Hackathon 2nd Activity",
@@ -129,18 +99,6 @@
         ]
       },
       {
-        "name": "Forum",
-        "participants": ["Company Representatives", "Registered Participants"],
-        "category": "Forum",
-        "startTime": "10:30 AM",
-        "endTime": "2:30 PM",
-        "description": "Forum on Latest Technologies & Digital Transformation",
-        "topics": [
-          "IT Trends: Cloud Computing, Telecom, and IoT",
-          "Artificial Intelligence and Its Impact on Enterprises"
-        ]
-      },
-      {
         "name": "Hackathon 4th Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
@@ -156,15 +114,18 @@
         ]
       },
       {
-        "name": "3rd Conference",
+        "name": "Opening Ceremony & 1st Conference",
         "participants": ["Registered Participants"],
         "category": "Conference",
-        "startTime": "4:00 PM",
+        "startTime": "4:45 PM",
         "endTime": "6:00 PM",
-        "description": "Conference on Extreme Science & Technology",
-        "topics": [
-          "Cutting-edge Technologies and Innovations",
-          "Exploration of Extreme Science and Technological Advancements"
+        "description": "Conference on Scientific Research",
+        "subtopics": [
+          "Contributions and Vision of Morocco in Scientific Research",
+          "Exploration of Space Science and Satellite Communications",
+          "Open Science and the Utilization of Open Data",
+          "Effective Utilization of Scientific Data for Various Purposes",
+          "Space Science and Open Data in Morocco"
         ]
       },
       {
@@ -292,12 +253,16 @@
         ]
       },
       {
-        "name": " 4th Conference: Success Story",
+        "name": "2rd Conference",
         "participants": ["Registered Participants"],
         "category": "Conference",
         "startTime": "4:00 PM",
-        "endTime": "5:30 PM",
-        "description": "A conference session featuring success stories and experiences shared by industry professionals and experts."
+        "endTime": "6:00 PM",
+        "description": "Conference on Extreme Science & Technology",
+        "topics": [
+          "Cutting-edge Technologies and Innovations",
+          "Exploration of Extreme Science and Technological Advancements"
+        ]
       },
       {
         "name": "Hackathon 7th Activity",
@@ -321,7 +286,7 @@
         ]
       },
       {
-        "name": "Closing Ceremony",
+        "name": "Success Story & Closing Ceremony",
         "participants": ["Registered Participants"],
         "category": "Conference",
         "startTime": "6:00 PM",
