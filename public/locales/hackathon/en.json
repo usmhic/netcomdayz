@@ -4,7 +4,7 @@
     "day":"Friday",
     "events": [
       {
-        "name": "Hackathon 1st Activity",
+        "name": "1st Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "12:00 PM",
@@ -31,15 +31,7 @@
         ]
       },
       {
-        "name": "Coffee Break",
-        "participants": ["Registered Participants"],
-        "category": "Break",
-        "startTime": "6:00 PM",
-        "endTime": "6:45 PM",
-        "description": "Participants can enjoy a coffee break and network with other attendees. Refreshments will be provided during the break."
-      },
-      {
-        "name": "Hackathon 2nd Activity",
+        "name": "2nd Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "8:30 PM",
@@ -72,7 +64,7 @@
     "day":"Saturday",
     "events": [
       {
-        "name": "Hackathon 3rd Activity",
+        "name": "3rd Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "8:00 AM",
@@ -99,7 +91,7 @@
         ]
       },
       {
-        "name": "Hackathon 4th Activity",
+        "name": "4th Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "2:00 AM",
@@ -114,15 +106,7 @@
         ]
       },
       {
-        "name": "Coffee Break",
-        "participants": ["Registered Participants"],
-        "category": "Break",
-        "startTime": "6:00 PM",
-        "endTime": "6:45 PM",
-        "description": "Participants can take a coffee break, network, and enjoy refreshments provided during the break."
-      },
-      {
-        "name": "Hackathon 5th Activity",
+        "name": "5th Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "8:30 PM",
@@ -149,11 +133,11 @@
     "day":"Sunday",
     "events": [
       {
-        "name": "Hackathon 6th Activity",
+        "name": "6th Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "8:00 AM",
-        "endTime": "6:00 PM",
+        "endTime": "1:30 PM",
         "details": [
           {
             "name": "Participants Start Working",
@@ -182,28 +166,7 @@
         ]
       },
       {
-        "name": "Hackathon 7th Activity",
-        "participants": ["Hackathon Mentors","Hackathon Participants"],
-        "category": "Hackathon",
-        "startTime": "1:30 PM",
-        "endTime": "6:00 PM",
-        "details": [
-          {
-            "name": "Participants Pitch",
-            "startTime": "1:30 PM",
-            "endTime": "3:00 PM",
-            "description": "Finalists will pitch their projects to a larger audience, including industry experts and potential investors."
-          },
-          {
-            "name": "Participants Lunch",
-            "startTime": "3:30 PM",
-            "endTime": "4:30 PM",
-            "description": "Selected participants can enjoy a provided lunch to refresh and recharge before the final phase of the event."
-          }
-        ]
-      },
-      {
-        "name": "Hackathon 7th Activity",
+        "name": "7th Activity",
         "participants": ["Hackathon Jury", "Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
         "startTime": "4:30 PM",
@@ -222,7 +185,7 @@
             "description": "The winners of the Hackathon will be announced, recognizing their exceptional contributions and achievements."
           }
         ]
-      },
+      }
     ]
   }   
 }
