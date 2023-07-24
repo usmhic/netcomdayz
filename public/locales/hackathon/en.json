@@ -1,0 +1,228 @@
+{
+  "day1": {
+    "date":"29 September 2023",
+    "day":"Friday",
+    "events": [
+      {
+        "name": "Hackathon 1st Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "12:00 PM",
+        "endTime": "4:00 PM",
+        "details": [
+          {
+            "name": "Check In",
+            "startTime": "00:00 PM",
+            "endTime": "2:00 PM",
+            "description": "Selected participants can check in to their respective hotels. Detailed hotel information will be provided prior to the event."
+          },
+          {
+            "name": "Lunch",
+            "startTime": "2:00 PM",
+            "endTime": "3:00 PM",
+            "description": "Lunch break for selected participants. Lunch will be provided at the event venue."
+          },
+          {
+            "name": "Info Session",
+            "startTime": "3:00 PM",
+            "endTime": "4:00 PM",
+            "description": "Informative session to provide selected participants with essential details, guidelines, and expectations for the Hackathon."
+          }
+        ]
+      },
+      {
+        "name": "Coffee Break",
+        "participants": ["Registered Participants"],
+        "category": "Break",
+        "startTime": "6:00 PM",
+        "endTime": "6:45 PM",
+        "description": "Participants can enjoy a coffee break and network with other attendees. Refreshments will be provided during the break."
+      },
+      {
+        "name": "Hackathon 2nd Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "8:30 PM",
+        "endTime": "12:00 PM",
+        "details": [
+          {
+            "name": "Networking Dinner",
+            "startTime": "8:30 PM",
+            "endTime": "9:30 PM",
+            "description": "Hackathon participants can network with fellow participants and mentors during a dinner event."
+          },
+          {
+            "name": "Team Building Activity",
+            "startTime": "10:00 PM",
+            "endTime": "11:00 PM",
+            "description": "Team building activity for Hackathon participants."
+          },
+          {
+            "name": "Hackathon Start",
+            "startTime": "11:00 PM",
+            "endTime": "12:00 PM",
+            "description": "Official start of the Hackathon."
+          }
+        ]
+      }
+    ]
+  },  
+  "day2": {
+    "date":"30 September 2023",
+    "day":"Saturday",
+    "events": [
+      {
+        "name": "Hackathon 3rd Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "8:00 AM",
+        "endTime": "2:00 PM",
+        "details": [
+          {
+            "name": "Participants Start Working",
+            "startTime": "8:00 AM",
+            "endTime": "8:00 PM",
+            "description": "Participants start working on their Hackathon projects."
+          },
+          {
+            "name": "Departure To Hackathon Location",
+            "startTime": "9:00 AM",
+            "endTime": "10:00 AM",
+            "description": "Participants depart from the hotel to the Hackathon location."
+          },
+          {
+            "name": "Participants Start Working",
+            "startTime": "10:00 AM",
+            "endTime": "2:00 PM",
+            "description": "Participants collaborate with their teams and work on their projects. Necessary resources and support will be provided."
+          }
+        ]
+      },
+      {
+        "name": "Hackathon 4th Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "2:00 AM",
+        "endTime": "3:30 PM",
+        "details": [
+          {
+            "name": "Participants Lunch",
+            "startTime": "2:00 PM",
+            "endTime": "3:30 PM",
+            "description": "Selected participants can enjoy a provided lunch to refuel and recharge for the remaining Hackathon activities."
+          }
+        ]
+      },
+      {
+        "name": "Coffee Break",
+        "participants": ["Registered Participants"],
+        "category": "Break",
+        "startTime": "6:00 PM",
+        "endTime": "6:45 PM",
+        "description": "Participants can take a coffee break, network, and enjoy refreshments provided during the break."
+      },
+      {
+        "name": "Hackathon 5th Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "8:30 PM",
+        "endTime": "12:00 PM",
+        "details": [
+          {
+            "name": "Networking Dinner",
+            "startTime": "8:30 PM",
+            "endTime": "9:30 PM",
+            "description": "Networking dinner for Hackathon participants and mentors."
+          },
+          {
+            "name": "Return To Hotel",
+            "startTime": "11:00 PM",
+            "endTime": "12:00 AM",
+            "description": "Participants return to the hotel."
+          }
+        ]
+      }
+    ]
+  },  
+  "day3": {
+    "date":"1 October 2023",
+    "day":"Sunday",
+    "events": [
+      {
+        "name": "Hackathon 6th Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "8:00 AM",
+        "endTime": "6:00 PM",
+        "details": [
+          {
+            "name": "Participants Start Working",
+            "startTime": "8:00 AM",
+            "endTime": "8:00 PM",
+            "description": "Participants continue working on their Hackathon projects."
+          },
+          {
+            "name": "Departure To Hackathon Location",
+            "startTime": "9:00 AM",
+            "endTime": "10:00 AM",
+            "description": "Participants depart from the hotel to the Hackathon location."
+          },
+          {
+            "name": "Finalize Projects",
+            "startTime": "10:00 AM",
+            "endTime": "12:00 PM",
+            "description": "Teams focus on finalizing their Hackathon projects and preparing for the presentation."
+          },
+          {
+            "name": "Participants Pitch Presentation",
+            "startTime": "12:00 PM",
+            "endTime": "1:30 PM",
+            "description": "Participants will present and pitch their projects to a panel of judges and the audience."
+          }
+        ]
+      },
+      {
+        "name": "Hackathon 7th Activity",
+        "participants": ["Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "1:30 PM",
+        "endTime": "6:00 PM",
+        "details": [
+          {
+            "name": "Participants Pitch",
+            "startTime": "1:30 PM",
+            "endTime": "3:00 PM",
+            "description": "Finalists will pitch their projects to a larger audience, including industry experts and potential investors."
+          },
+          {
+            "name": "Participants Lunch",
+            "startTime": "3:30 PM",
+            "endTime": "4:30 PM",
+            "description": "Selected participants can enjoy a provided lunch to refresh and recharge before the final phase of the event."
+          }
+        ]
+      },
+      {
+        "name": "Hackathon 7th Activity",
+        "participants": ["Hackathon Jury", "Hackathon Mentors","Hackathon Participants"],
+        "category": "Hackathon",
+        "startTime": "4:30 PM",
+        "endTime": "6:00 PM",
+        "details": [
+          {
+            "name": "Evaluation",
+            "startTime": "4:30 PM",
+            "endTime": "5:00 PM",
+            "description": "Judges will evaluate the projects and provide feedback."
+          },
+          {
+            "name": "Winner Announcement",
+            "startTime": "5:30 PM",
+            "endTime": "6:00 PM",
+            "description": "The winners of the Hackathon will be announced, recognizing their exceptional contributions and achievements."
+          }
+        ]
+      },
+    ]
+  }   
+}
