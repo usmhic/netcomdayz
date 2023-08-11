@@ -1,104 +1,101 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
+import { FiSun, FiMoon, FiMenu } from 'react-icons/fi';
 
-const Header = ({ logo, menuItems, isDarkMode, handleToggle, language, handleChangeLanguage }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Header = ({ logo, menuItems, darkMode, onDarkModeToggle, onLanguageChange, selectedLanguage }) => {
+  const [showMenu, setShowMenu] = useState(false);
+  const [showPhoneMenu, setShowPhoneMenu] = useState(false);
+
+  const handleClick = (link) => {
+    const element = document.getElementById(link);
+    element.scrollIntoView({ behavior: 'smooth' });
+    setShowMenu(false);
+    setShowPhoneMenu(false);
+  };
 
   const handleMenuToggle = () => {
-    setIsMenuOpen((prevState) => !prevState);
+    setShowMenu(!showMenu);
+  };
+
+  const handlePhoneMenuToggle = () => {
+    setShowPhoneMenu(!showPhoneMenu);
   };
 
   return (
-    <header className="bg-gray-100 dark:bg-gray-900">
-      <div className="container mx-auto py-4 px-6 flex items-center justify-between">
-        <div className="flex items-center">
-          <Link
-            to="hero"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className="text-4xl font-bold tracking-wider"
-          >
-            <img src={logo} alt="Logo" className="h-16 w-auto" />
-          </Link>
+    <header className="py-4 px-6 bg-gray-200 dark:bg-slate-800">
+      <div className="container mx-auto flex items-center justify-between">
+        <div className="flex items-center space-x-2">
+          <img src={darkMode ? logo.dark : logo.light} alt="Logo" className="h-14" />
         </div>
 
-        <nav className="hidden md:block">
-          <ul className="flex items-center space-x-4">
-            {menuItems.map((item, index) => (
-              <li key={index}>
-                <Link
-                  to={item.link}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                  className="text-base font-medium hover:text-gray-600 cursor-pointer"
-                >
-                  {item.text}
-                </Link>
-              </li>
+        <nav
+          className={`md:flex items-start md:items-center ${showMenu ? 'block' : 'hidden'
+            } md:space-x-4 mt-4 md:mt-0`}
+        >
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            {menuItems.map((menuItem, index) => (
+              <button
+                key={index}
+                className="px-4 py-2 rounded-full text-gray-800 dark:text-white hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-600 transition duration-300"
+                onClick={() => handleClick(menuItem.link)}
+              >
+                {menuItem.text}
+              </button>
             ))}
-          </ul>
+          </div>
         </nav>
 
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center space-x-4">
           <button
-            className="focus:outline-none"
-            onClick={handleMenuToggle}
-            aria-label="Toggle Menu"
+            onClick={() => onDarkModeToggle()}
+            className="text-slate-900 dark:text-white hover:text-red-500 transition duration-300"
           >
-            {isMenuOpen ? (
-              <FiX className="w-6 h-6 fill-current cursor-pointer" />
-            ) : (
-              <FiMenu className="w-6 h-6 fill-current cursor-pointer" />
-            )}
+            {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
           </button>
-        </div>
-
-        <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <ul className="mt-2 space-y-4">
-            {menuItems.map((item, index) => (
-              <li key={index}>
-                <Link
-                  to={item.link}
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                  className="block text-base font-medium hover:text-gray-600 cursor-pointer"
-                  onClick={handleMenuToggle}
-                >
-                  {item.text}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="flex items-center">
-          <button
-            className="flex items-center focus:outline-none mr-2"
-            onClick={handleToggle}
-            aria-label="Toggle Dark Mode"
-          >
-            {isDarkMode ? (
-              <FiSun className="w-6 h-6 fill-current cursor-pointer" />
-            ) : (
-              <FiMoon className="w-6 h-6 fill-current cursor-pointer" />
-            )}
-          </button>
-
           <select
-            value={language}
-            onChange={(e) => handleChangeLanguage(e.target.value)}
-            className="block py-2 px-3 border border-gray-300 rounded-md text-base font-medium text-gray-800 dark:text-gray-100 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:border-rose-500 cursor-pointer"
+            value={selectedLanguage}
+            onChange={(e) => onLanguageChange(e.target.value)}
+            className="text-slate-900 dark:text-white bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-md px-3 py-2 focus:outline-none"
           >
             <option value="en">English</option>
+            <option value="es">Español</option>
             <option value="ar">العربية</option>
             <option value="fr">Français</option>
-            <option value="es">Español</option>
           </select>
+          <button
+            className="text-slate-900 dark:text-white hover:text-red-500 transition duration-300 md:hidden"
+            onClick={handlePhoneMenuToggle}
+          >
+            <FiMenu size={20} />
+          </button>
         </div>
+
+        {showPhoneMenu && (
+          <div className="fixed inset-0 bg-white dark:bg-slate-800 p-4">
+            <div className="flex justify-end">
+              <button
+                className="text-slate-900 dark:text-white hover:text-red-500 transition duration-300"
+                onClick={handlePhoneMenuToggle}
+              >
+                <FiMenu size={20} />
+              </button>
+            </div>
+            <div
+              className={`flex flex-col mt-8 space-y-4 ${
+                showPhoneMenu ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'
+              } transition-all duration-500`}
+            >
+              {menuItems.map((item, index) => (
+                <button
+                  key={index}
+                  className="px-4 py-2 rounded-full text-slate-900 dark:text-white hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-600 transition duration-300"
+                  onClick={() => handleClick(item.link)}
+                >
+                  {item.text}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );

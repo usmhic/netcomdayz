@@ -1,0 +1,133 @@
+{
+  "header": {
+    "logo": {
+      "light": "/assets/logo/prlms-logo-red-hollow.png",
+      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+    },
+    "menuItems": [
+      {
+        "text": "كيف يعمل",
+        "link": "about"
+      },
+      {
+        "text": "كيفية الانضمام",
+        "link": "partners"
+      },
+      {
+        "text": "تعرف على الفريق",
+        "link": "team"
+      },
+      {
+        "text": "ترقية إلى HyprSol",
+        "link": "sponsor"
+      }
+    ]
+  },
+  "hero": {
+    "title": "مرحبًا بك في NetComDayz",
+    "description": "تمكين حل المشكلات لإنشاء حلول مبتكرة",
+    "ctaText": "البدء",
+    "ctaLink": "#get-started"
+  },
+  "about": {
+    "title": "كيف يعمل NetComDayz",
+    "description": "NetComDayz هي منصة مبتكرة تهدف إلى ثورة في طريقة حل المشكلات. نحن نؤمن بأن التعاون والمجتمع والتكنولوجيا المتقدمة هي مفاتيح فتح الحلول الرائدة. مع NetComDayz، قمنا بإنشاء مشروع أساسي يلبي احتياجات حل المشكلات في جميع أنحاء العالم.",
+    "steps": [
+      {
+        "title": "الخطوة 1: الملف الشخصي الشخصي",
+        "description": "ابدأ بإنشاء ملف شخصي يسلط الضوء على المشاريع التي عملت عليها أو تعمل عليها حاليًا. قم بعرض خبرتك وتواصل مع حل المشكلات الذين يتشاركون في نفس رؤيتك."
+      },
+      {
+        "title": "الخطوة 2: نشر، إعجاب وحفظ المشاريع",
+        "description": "شارك مشاريعك مع المجتمع، استكشف أفكار الآخرين، وأظهر تقديرك من خلال الإعجاب بالمشاريع وحفظها التي تلهمك."
+      },
+      {
+        "title": "الخطوة 3: التعاون والمراسلة",
+        "description": "تعاون مع أعضاء آخرين في مجتمع NetComDayz من خلال المراسلات والمناقشات. نمّي ثقافة الابتكار وروح العمل الجماعي."
+      }
+    ]
+  },
+  "partners": {
+    "title": "كيفية الانضمام إلى NetComDayz",
+    "description": "الانضمام إلى NetComDayz سهل ويفتح عالمًا من الفرص لعرض مشاريعك، والتواصل مع مجتمع من الخبراء والمبتكرين، والتعاون لتعزيز الحلول. إليك كيف يمكنك أن تصبح جزءًا من مجتمعنا الحصري:",
+    "steps": [
+      {
+        "title": "الخطوة 1: ملء استمارة التسجيل",
+        "description": "ابدأ بملء استمارة التسجيل بتفاصيلك. أخبرنا عن خلفيتك وخبرتك ونوع المشاريع التي تهتم بحلها."
+      },
+      {
+        "title": "الخطوة 2: استلام قبول واستمارة التسجيل",
+        "description": "عند مراجعة طلب التسجيل الخاص بك، ستتلقى إشعارًا بالقبول. إذا تم قبولك، ستحصل على استمارة التسجيل الرسمية لاستكمال ملفك الشخصي."
+      },
+      {
+        "title": "الخطوة 3: الانضمام وإعداد الملف الشخصي",
+        "description": "اتبع عملية الانضمام لإعداد ملفك الشخصي. قم بعرض مشاريعك ومهاراتك واهتماماتك لجذب المتعاونين والفرص."
+      },
+      {
+        "title": "الخطوة 4: ابدأ بنشر مشاريعك",
+        "description": "بمجرد جاهزية ملفك الشخصي، ابدأ بنشر مشاريعك على NetComDayz. شارك الحلول الابتكارية الخاصة بك، واطلب تعليقات، وألهم الآخرين برحلتك في حل المشكلات."
+      }
+    ],
+    "ctaText": "انضم الآن",
+    "ctaLink": "join"
+  },
+  "team": {
+    "title": "تعرف على فريق NetComDayz",
+    "description": "في NetComDayz، يشعر فريقنا بالشغف لتمكين حل المشكلات مثلك. تعرف على الأشخاص وراء المنصة الذين يعملون بلا كلل لدعم وتعزيز مجتمع الابتكار.",
+    "members": [
+      {
+        "name": "أسامة هشو",
+        "role": "قائد الفريق",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHNuwkpGPdgbw/profile-displayphoto-shrink_800_800/0/1677779260274?e=1692230400&v=beta&t=-deiugyfLoKyf7-V4K4uuAMgyKMWLQw752-B87Phips",
+        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
+      },
+      {
+        "name": "عبد الرحيم فزازي",
+        "role": "رئيس التكنولوجيا",
+        "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216/"
+      },
+      {
+        "name": "محمد بن جواد",
+        "role": "رئيس البحث والابتكار",
+        "image": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  "sponsor": {
+    "title": "الترقية إلى HyprSol",
+    "description": "هل أنت مستعد لرفع قدرات حل المشكلات إلى المستوى التالي؟ قم بالترقية إلى HyprSol، خطة الاشتراك الرئيسية لدينا التي توفر ميزات وفوائد حصرية. احصل على وصول إلى خوارزميات الذكاء الاصطناعي المتقدمة والدعم الشخصي وأكثر من ذلك. انضم إلى مجتمع الحل المميز للمشكلات الذين اعتمدوا على HyprSol لتحقيق نتائج استثنائية.",
+    "ctaText": "الترقية الآن",
+    "ctaLink": "upgrade"
+  },
+  "footer": {
+    "logo": {
+      "light": "/assets/logo/prlms-logo-red-hollow.png",
+      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+    },
+    "copyright": "كل الحقوق محفوظة.",
+    "socialLinks": [
+      {
+        "text": "mail",
+        "link": "mailto:info@netcomdayz.com"
+      },
+      {
+        "text": "youtube",
+        "link": "https://www.youtube.com/@NetComDayz"
+      },
+      {
+        "text": "instagram",
+        "link": "https://www.instagram.com/NetComDayz"
+      },
+      {
+        "text": "linkedin",
+        "link": "https://www.linkedin.com/company/NetComDayz"
+      },
+      {
+        "text": "facebook",
+        "link": "https://www.facebook.com/NetComDayz"
+      }
+    ]
+  }
+}

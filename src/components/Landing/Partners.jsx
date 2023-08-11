@@ -1,59 +1,36 @@
 import React from 'react';
-import { FiExternalLink, FiLinkedin } from 'react-icons/fi';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-const Partners = ({ title, list, id }) => {
+const Partners = ({ title, description, ctaText, ctaLink, items }) => {
   return (
-    <section
-      id={id}
-      className="bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-500 dark:bg-gray-900 py-16"
-    >
-      <div className="container mx-auto px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white dark:text-gray-100 mb-6 text-center">
-            {title}
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {list.map((partner, index) => (
-              <div
-                key={index}
-                className="bg-white dark:bg-gray-800 rounded-lg shadow-md"
-              >
-                <div className="h-64 w-full rounded-t-lg overflow-hidden">
-                  <img
-                    src={partner.logo}
-                    alt={partner.name}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="p-4">
-                  <h3 className="text-lg font-medium text-gray-800 dark:text-gray-100 mb-2">
-                    {partner.name}
-                  </h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                    {partner.description}
-                  </p>
-                  <div className="flex justify-between">
-                    <a
-                      href={partner.website}
-                      className="text-rose-600 dark:text-rose-300 hover:underline flex items-center"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FiExternalLink className="mr-1" />
-                    </a>
-                    <a
-                      href={partner.linkedin}
-                      className="text-rose-600 dark:text-rose-300 hover:underline flex items-center"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FiLinkedin className="mr-1" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+    <section id="partners" className="py-20 bg-gradient-to-r from-indigo-600 via-red-600 to-red-600 dark:from-gray-900 dark:via-gray-800 dark:to-gray-800">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-white dark:text-gray-100 mb-6">{title}</h2>
+        <p className="text-xl md:text-2xl text-white dark:text-gray-200 mb-8">{description}</p>
+        <a
+          href={ctaLink}
+          className="inline-block bg-red-500 dark:bg-red-600 hover:bg-red-600 dark:hover:bg-red-700 focus:bg-red-600 dark:focus:bg-red-700 text-white dark:text-gray-300 px-6 py-3 rounded-md font-medium transition duration-300 focus:outline-none focus:ring-2 focus:ring-red-500"
+        >
+          {ctaText}
+        </a>
+
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+          {items.map((partner, index) => (
+            <div
+              key={index}
+              className="bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl flex flex-col items-center"
+            >
+              <img
+                src={partner.image}
+                alt={partner.title}
+                className="w-32 h-32 object-contain mb-4"
+              />
+              <h3 className="text-slate-900 dark:text-white mt-2 text-xl font-bold text-center">
+                {partner.title}
+              </h3>
+            </div>
+          ))}
         </div>
       </div>
     </section>

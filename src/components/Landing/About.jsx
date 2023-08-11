@@ -1,65 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const About = ({ title, description, steps, next, edition, highlights }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
-
+const About = ({ title, description, items }) => {
   return (
-    <section id="about" className="bg-gray-100 dark:bg-gray-900 py-16">
-      <div className="container mx-auto px-6">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
-            {title}
-          </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 text-center">
-            {description}
-          </p>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            {steps.map((step, index) => (
-              <div key={index} className="flex items-center">
-                <div className="bg-rose-100 dark:bg-rose-900 rounded-md p-4">
-                  <span className="text-4xl text-rose-600 dark:text-rose-300 font-bold">
-                    {index + 1}
-                  </span>
-                </div>
-                <div className="ml-4">
-                  <p className="text-gray-600 dark:text-gray-300">
-                    {step}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <button
-              onClick={toggleExpand}
-              className="inline-flex items-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-full shadow-md text-white bg-rose-600 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500 transition-colors duration-300"
+    <section id="about" className="py-20 bg-gray-200 dark:bg-gray-800">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 dark:text-gray-100 mb-6">{title}</h2>
+          <p className="text-xl md:text-2xl text-gray-800 dark:text-gray-200">{description}</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {items.map((item, index) => (
+            <a
+              key={index}
+              href={item.ctaLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-white dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 hover:scale-105"
             >
-              {isExpanded ? `${edition}` : next}
-            </button>
-            {isExpanded && (
-              <>
-                <div className="mt-12">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                    {highlights.map((highlight, index) => (
-                      <div
-                        key={index}
-                        className="p-6 bg-white dark:bg-gray-800 rounded-lg flex items-center"
-                      >
-                        <span className="text-rose-600 dark:text-rose-300 text-3xl mr-4">
-                          &#8226;
-                        </span>
-                        <p className="text-gray-800 dark:text-gray-100">{highlight}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </>
-            )}
-          </div>
+              <h3 className="text-slate-900 dark:text-white text-xl font-bold tracking-tight">
+                {item.title}
+              </h3>
+              <p className="text-slate-500 dark:text-slate-400 mt-2 text-base">{item.description}</p>
+              {item.image && (
+                <img src={item.image} alt={item.title} className="mt-4 rounded-lg shadow-md" />
+              )}
+            </a>
+          ))}
         </div>
       </div>
     </section>

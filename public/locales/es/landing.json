@@ -1,0 +1,133 @@
+{
+  "header": {
+    "logo": {
+      "light": "/assets/logo/prlms-logo-red-hollow.png",
+      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+    },
+    "menuItems": [
+      {
+        "text": "Cómo funciona",
+        "link": "about"
+      },
+      {
+        "text": "Cómo unirse",
+        "link": "partners"
+      },
+      {
+        "text": "Conoce al equipo",
+        "link": "team"
+      },
+      {
+        "text": "Actualizar a HyprSol",
+        "link": "sponsor"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Bienvenido a NetComDayz",
+    "description": "Empoderando a los solucionadores de problemas para crear soluciones innovadoras",
+    "ctaText": "Comenzar",
+    "ctaLink": "#get-started"
+  },
+  "about": {
+    "title": "Cómo funciona NetComDayz",
+    "description": "NetComDayz es una plataforma innovadora que busca revolucionar la forma en que se resuelven los problemas. Creemos que la colaboración, la comunidad y la tecnología avanzada son clave para desbloquear soluciones innovadoras. Con NetComDayz, hemos creado un proyecto esencial que atiende las necesidades de los solucionadores de problemas en todo el mundo.",
+    "steps": [
+      {
+        "title": "Paso 1: Perfil personal",
+        "description": "Comienza creando un perfil personal destacando los proyectos en los que has trabajado o estás trabajando actualmente. Muestra tu experiencia y conecta con solucionadores de problemas afines."
+      },
+      {
+        "title": "Paso 2: Publicar, dar me gusta y guardar proyectos",
+        "description": "Comparte tus proyectos con la comunidad, explora las ideas de otros y muestra tu aprecio dándole me gusta y guardando los proyectos que te inspiran."
+      },
+      {
+        "title": "Paso 3: Colaboración y mensajería",
+        "description": "Colabora con otros miembros de la comunidad NetComDayz a través de mensajes y discusiones. Fomenta una cultura de innovación y trabajo en equipo."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Cómo unirse a NetComDayz",
+    "description": "Unirse a NetComDayz es fácil y abre un mundo de oportunidades para mostrar tus proyectos, conectarte con una comunidad de expertos e innovadores, y colaborar para mejorar las soluciones. Así es como puedes formar parte de nuestra comunidad exclusiva:",
+    "steps": [
+      {
+        "title": "Paso 1: Llenar el formulario de registro",
+        "description": "Comienza completando el formulario de registro con tus datos. Cuéntanos sobre tu experiencia, habilidades y el tipo de proyectos que te apasiona resolver."
+      },
+      {
+        "title": "Paso 2: Recibir aceptación y formulario de registro",
+        "description": "Una vez que revisemos tu registro, recibirás una notificación de aceptación. Si eres aceptado, recibirás el formulario de registro oficial para completar tu perfil."
+      },
+      {
+        "title": "Paso 3: Incorporación y configuración del perfil",
+        "description": "Sigue el proceso de incorporación para configurar tu perfil. Muestra tus proyectos, habilidades e intereses para atraer colaboradores y oportunidades."
+      },
+      {
+        "title": "Paso 4: Comienza a publicar tus proyectos",
+        "description": "Una vez que tu perfil esté listo, comienza a publicar tus proyectos en NetComDayz. Comparte tus soluciones innovadoras, solicita feedback e inspira a otros con tu camino de resolución de problemas."
+      }
+    ],
+    "ctaText": "Únete ahora",
+    "ctaLink": "join"
+  },
+  "team": {
+    "title": "Conoce al equipo de NetComDayz",
+    "description": "En NetComDayz, nuestro equipo está apasionado por empoderar a solucionadores de problemas como tú. Conoce a las personas detrás de la plataforma que trabajan incansablemente para apoyar y fomentar una comunidad de innovación.",
+    "members": [
+      {
+        "name": "Oussama Hichou",
+        "role": "Líder del equipo",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHNuwkpGPdgbw/profile-displayphoto-shrink_800_800/0/1677779260274?e=1692230400&v=beta&t=-deiugyfLoKyf7-V4K4uuAMgyKMWLQw752-B87Phips",
+        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
+      },
+      {
+        "name": "Abderrahim Fazazi",
+        "role": "Jefe de Tecnología",
+        "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216/"
+      },
+      {
+        "name": "Mohamed Benjouad",
+        "role": "Jefe de Investigación e Innovación",
+        "image": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  "sponsor": {
+    "title": "Actualizar a HyprSol",
+    "description": "¿Listo para llevar tus habilidades de resolución de problemas al siguiente nivel? Actualiza a HyprSol, nuestro plan de suscripción premium que ofrece características y beneficios exclusivos. Desbloquea el acceso a algoritmos de IA avanzados, soporte personalizado y más. Únete a la comunidad élite de solucionadores de problemas que han adoptado HyprSol para lograr resultados excepcionales.",
+    "ctaText": "Actualizar ahora",
+    "ctaLink": "upgrade"
+  },
+  "footer": {
+    "logo": {
+      "light": "/assets/logo/prlms-logo-red-hollow.png",
+      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "socialLinks": [
+      {
+        "text": "mail",
+        "link": "mailto:info@netcomdayz.com"
+      },
+      {
+        "text": "youtube",
+        "link": "https://www.youtube.com/@NetComDayz"
+      },
+      {
+        "text": "instagram",
+        "link": "https://www.instagram.com/NetComDayz"
+      },
+      {
+        "text": "linkedin",
+        "link": "https://www.linkedin.com/company/NetComDayz"
+      },
+      {
+        "text": "facebook",
+        "link": "https://www.facebook.com/NetComDayz"
+      }
+    ]
+  }
+}

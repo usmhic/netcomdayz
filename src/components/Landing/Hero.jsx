@@ -1,72 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 
-const Hero = ({ title, description, buttons, gallery, isDarkMode }) => {
-  const sectionStyle = {
-    background: `linear-gradient(
-      45deg,
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.8)' : 'rgba(255, 154, 158, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(250, 208, 196, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 1)' : 'rgba(250, 208, 196, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(161, 196, 253, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.8)' : 'rgba(194, 233, 251, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(161, 196, 253, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 1)' : 'rgba(180, 235, 242, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.9)' : 'rgba(224, 195, 252, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.8)' : 'rgba(224, 195, 252, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.7)' : 'rgba(142, 197, 252, 0.6)'},
-      ${isDarkMode ? 'rgba(0, 0, 0, 0.7)' : 'rgba(142, 197, 252, 0.6)'}
-    )`,
-    opacity: isDarkMode ? 0.9 : 0.6,
-    animation: 'heroBgAnimation 15s ease infinite',
-  };
-
-  const animatedStyle = {
-    opacity: 1,
-    transform: 'scale(1)',
-    transition: 'opacity 0.5s, transform 0.5s',
-  };
+const Hero = ({ title, description, ctaText, ctaLink, gallery, isDarkMode }) => {
+  const totalImages = 3; // Total number of images in the gallery
+  const [currentImage, setCurrentImage] = useState(0);
 
   return (
-    <section
-      id="hero"
-      style={Object.assign({}, sectionStyle, animatedStyle)}
-      className={`${
-        isDarkMode ? 'bg-gray-900 dark' : 'bg-gray-100'
-      } py-16`}
-    >
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row items-center justify-between">
-          <div className="w-full lg:w-1/2">
-            <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center lg:text-left">
+    <section className="py-16 md:py-32 bg-gradient-to-r from-indigo-600 to-red-600 dark:from-gray-900 dark:via-gray-800 dark:to-gray-800">
+      <div className="container mx-auto px-4 h-full flex flex-col md:flex-row items-center">
+        <div className="md:w-1/2">
+          <div className="text-center md:text-left">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter text-white dark:text-gray-100 mb-4 leading-tight">
               {title}
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
+            <p className="text-xl md:text-2xl text-white dark:text-gray-200 mb-8">
               {description}
             </p>
-            <div className="flex space-x-4 justify-center lg:justify-start">
-              {buttons.map((button, index) => (
-                <a
-                  key={index}
-                  href={button.link}
-                  className="py-2 px-4 bg-rose-500 hover:bg-rose-600 focus:bg-rose-600 rounded-md text-white text-lg font-medium transition-colors duration-300"
-                >
-                  {button.text}
-                </a>
-              ))}
-            </div>
+            <a
+              href={ctaLink}
+              className="inline-block bg-red-500 dark:bg-red-600 hover:bg-red-600 dark:hover:bg-red-700 focus:bg-red-600 dark:focus:bg-red-700 text-white dark:text-gray-300 px-6 py-3 rounded-md font-medium transition duration-300 focus:outline-none focus:ring-2 focus:ring-red-500"
+            >
+              {ctaText}
+            </a>
           </div>
-          <div className="w-full lg:w-1/2 mt-12 lg:mt-0">
-            <div className="grid grid-cols-2 gap-4">
-              {gallery.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  alt={`Gallery Image ${index + 1}`}
-                  className="rounded-md"
-                />
-              ))}
-            </div>
-          </div>
+        </div>
+        <div className="md:w-1/2">
+          <Carousel
+            selectedItem={currentImage}
+            showStatus={false}
+            showThumbs={false}
+            infiniteLoop={true}
+            showIndicators={false}
+            onChange={(index) => setCurrentImage(index)}
+          >
+            {[1, 2, 3].map((imageIndex) => (
+              <div
+                key={imageIndex}
+                style={{
+                  backgroundImage: `url('/assets/gallery/netcomday_${imageIndex}.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  minHeight: '300px', // Adjust the height as needed
+                }}
+              />
+            ))}
+          </Carousel>
         </div>
       </div>
     </section>

@@ -1,0 +1,169 @@
+{
+  "header": {
+    "logo": {
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
+    },
+    "menuItems": [
+      {
+        "text": "About",
+        "link": "about"
+      },
+      {
+        "text": "Partners",
+        "link": "partners"
+      },
+      {
+        "text": "Team",
+        "link": "team"
+      },
+      {
+        "text": "Sponsor",
+        "link": "sponsor"
+      },
+      {
+        "text": "Contact",
+        "link": "contact"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Step Into NetComDayz",
+    "description": "A Galactic Playground of Tech Wonders",
+    "ctaText": "Explore More",
+    "ctaLink": "#about",
+    "gallery": "/assets/gallery"
+  },
+  "about": {
+    "title": "Discover NetComDayz",
+    "description": "NetComDayz is where geeks, dreamers, and tech lovers collide! Imagine a space where space science, open data, and futuristic tech coexist in harmony. Journey through the cosmos, unleash the power of data, and get up close with cutting-edge tech. Join us in rewriting the rules of what's possible!",
+    "items": [
+      {
+        "title": "Cosmic Odyssey",
+        "description": "Embark on space quests and unravel cosmic mysteries.",
+        "image": "/assets/images/space_science.png",
+        "ctaText": "Learn more About Space Science",
+        "ctaLink": "https://en.wikipedia.org/wiki/Communications_satellite"
+      },
+      {
+        "title": "Data Adventures",
+        "description": "Explore data wonders that shape our world and future.",
+        "image": "/assets/images/open_data.png",
+        "ctaText": "Learn More About Open Data",
+        "ctaLink": "https://en.wikipedia.org/wiki/Open_data"
+      },
+      {
+        "title": "Tech Marvels",
+        "description": "Dive into a world of sci-fi tech and innovative wonders.",
+        "image": "/assets/images/latest_tech.png",
+        "ctaText": "Learn More About Latest Tech",
+        "ctaLink": "https://en.wikipedia.org/wiki/Information_and_communications_technology"
+      }
+    ]
+  },
+  "partners": {
+    "title": "Our Dream Partners",
+    "description": "Dreams come true with collaborative minds and partners!",
+    "items": [
+      {
+        "title": "Telnet Club, ENSA de Tanger",
+        "image": "https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/327157202_1535700160244921_4760923483827831710_n.png?_nc_cat=102&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeFmgWe1MMac9ZGhoqtEa71htAtwxdX_EYO0C3DF1f8Rgw-nsdv5Mr97W8RYarPXEhSb4yHWWWJphdpZrVIiIj4a&_nc_ohc=wSi0Bew41A8AX9ndu8C&_nc_ht=scontent.frba2-1.fna&oh=00_AfBjLPoAaEXTMNDhKmZ1Jm9f_1d3FHJt7BgcCFWt_dKaJg&oe=64DA363E",
+        "link": "https://www.linkedin.com/showcase/netcom-day-ensat/"
+
+      },
+      {
+        "title": "ActiveLabs, Technopark",
+        "image": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/373008/Activelabs_Fav_Transp_dqhww7.png",
+        "link": "https://www.activelabs.ma/"
+
+      },
+      {
+        "title": "NASA Space Apps Challenge",
+        "image": "https://assets.spaceappschallenge.org/media/images/SpaceAppsLogo_Default_2ColorWhi.width-440.jpegquality-60.png",
+        "link": "https://www.spaceappschallenge.org/2023/locations/tangier/"
+      },
+      {
+        "title": "Myta Community",
+        "image": "https://www.mytacom.net/_next/image?url=%2Fmyta.png&w=128&q=75",
+        "link": "https://www.mytacom.net/"
+      }
+    ],
+    "ctaText": "Become A Partner",
+    "ctaLink": "partner"
+  },
+  "team": {
+    "title": "Meet the Dreamweavers",
+    "description": "The magic-makers behind NetComDayz!",
+    "members": [
+      {
+        "name": "Rabii El Haili",
+        "position": "Tech Enthusiast",
+        "image": "https://media.licdn.com/dms/image/C4D03AQFIhtFmJF2tSQ/profile-displayphoto-shrink_400_400/0/1648424129664?e=1692230400&v=beta&t=TFKONggTolmxAebebfRYmpX1R2jTqx8p8KSTYFlvPSU",
+        "linkedin": "https://www.linkedin.com/in/rab%C3%AF-el-haili-2b7b89180/"
+      },
+      {
+        "name": "Fatima Ezzahrae Taouil",
+        "position": "Project Manager",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
+        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
+      },
+      {
+        "name": "Oussama Hichou",
+        "position": "Project Manager",
+        "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
+        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
+      },
+      {
+        "name": "Abderrahim Fazazi",
+        "position": "Project Manager",
+        "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216"
+      },
+      {
+        "name": "Maryam El Mansouri ",
+        "position": "Project Manager",
+        "image": "https://media.licdn.com/dms/image/D4D03AQE780TAqnQulw/profile-displayphoto-shrink_400_400/0/1680742760888?e=1697068800&v=beta&t=-WQgJj-X_nlr4u3fVw5Unu-x41QK4UlK3idbgx1qLfs",
+        "linkedin": "https://www.linkedin.com/in/maryem-el-mansouri-5b6b60195"
+      },      
+      {
+        "name": "Aya El Kamel",
+        "position": "Project Manager",
+        "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
+        "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
+      }
+    ]
+  },
+  "sponsor": {
+    "title": "Become Our Cosmic Companion",
+    "description": "Join us in the tech-tastic journey of NetComDayz!",
+    "ctaText": "Sponsorship",
+    "ctaLink": "sponsor"
+  },
+  "contact": {
+    "title": "Let's Chat!",
+    "description": "Got ideas, questions, or just want to join the fun? Reach out!",
+    "ctaText": "Say Hi",
+    "ctaLink": "mailto:oussama@netcomdayz.com"
+  },
+  "footer": {
+    "logo": {
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
+    },
+    "copyright": "All Rights Reserved.",
+    "socialLinks": [
+      {
+        "text": "Instagram",
+        "link": "https://www.instagram.com/NetComDayz"
+      },
+      {
+        "text": "LinkedIn",
+        "link": "https://www.linkedin.com/company/NetComDayz"
+      },
+      {
+        "text": "Facebook",
+        "link": "https://www.facebook.com/NetComDayz"
+      }
+    ]
+  }
+}

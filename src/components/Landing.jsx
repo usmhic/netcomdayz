@@ -1,29 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-scroll';
-import Header from './Landing/Header';
-import Hero from './Landing/Hero';
-import About from './Landing/About';
-import Partners from './Landing/Partners';
-import Sponsorship from './Landing/Sponsorship';
-import Team from './Landing/Team';
-import Contact from './Landing/Contact';
-import Footer from './Landing/Footer';
+import HeaderComponent from './Landing/Header';
+import HeroComponent from './Landing/Hero';
+import AboutComponent from './Landing/About';
+import PartnersComponent from './Landing/Partners';
+import TeamComponent from './Landing/Team';
+import SponsorComponent from './Landing/Sponsor';
+import ContactComponent from './Landing/Contact';
+import FooterComponent from './Landing/Footer';
 
-import enData from '/public/locales/en.json';
-import arData from '/public/locales/ar.json';
-import frData from '/public/locales/fr.json';
-import esData from '/public/locales/es.json';
+import enData from '/public/locales/en/landing.json';
+import esData from '/public/locales/es/landing.json';
+import arData from '/public/locales/ar/landing.json';
+import frData from '/public/locales/fr/landing.json';
 
 const Landing = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [language, setLanguage] = useState('en');
-  const languages = {
-    en: enData,
-    ar: arData,
-    fr: frData,
-    es: esData,
-  };
-  const data = languages[language];
 
   useEffect(() => {
     if (isDarkMode) {
@@ -33,94 +25,93 @@ const Landing = () => {
     }
   }, [isDarkMode]);
 
-  useEffect(() => {
-    document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
-
-    if (language === 'ar') {
-      document.documentElement.lang = 'ar';
-      document.documentElement.style.fontFamily = 'Your Arabic Font, Arial, sans-serif'; // Replace 'Your Arabic Font' with the actual font name you want to use
-    } else {
-      document.documentElement.lang = 'en';
-      document.documentElement.style.fontFamily = 'Arial, sans-serif'; // Default font for other languages
-    }
-  }, [language]);
-
   const handleToggle = () => {
     setIsDarkMode(!isDarkMode);
   };
 
-  const handleChangeLanguage = (selectedLanguage) => {
+  const handleLanguageChange = (selectedLanguage) => {
     setLanguage(selectedLanguage);
   };
 
+  const scrollToSection = () => {
+    // Implement scroll functionality to scroll to the specified section
+  };
+
+  const data = {
+    en: enData,
+    es: esData,
+    ar: arData,
+    fr: frData,
+  };
+
+  const {
+    header,
+    hero,
+    about,
+    partners,
+    team,
+    sponsor,
+    contact,
+    footer
+  } = data[language];
+
+  const isRtl = language === 'ar';
+
   return (
-    <div className={`bg-white dark:bg-black text-gray-800 dark:text-gray-100 ${isDarkMode ? 'dark' : ''}`}>
-      {/* Header */}
-      <Header
-        logo={isDarkMode ? data.header.dark : data.header.light}
-        menuItems={data.header.menuItems}
-        isDarkMode={isDarkMode}
-        handleToggle={handleToggle}
-        language={language}
-        handleChangeLanguage={handleChangeLanguage}
+    <div className={`bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-100 ${isRtl ? 'rtl' : ''}`}>
+      <HeaderComponent
+        logo={header.logo}
+        menuItems={header.menuItems}
+        darkMode={isDarkMode}
+        onDarkModeToggle={handleToggle}
+        onLanguageChange={handleLanguageChange}
+        selectedLanguage={language}
+        scrollToSection={scrollToSection}
       />
-
-      {/* Hero section */}
-      <Hero
-        title={data.hero.title}
-        description={data.hero.description}
-        buttons={data.hero.buttons}
-        gallery={data.hero.gallery}
-        id="hero"
+      <HeroComponent 
+        title={hero.title} 
+        description={hero.description} 
+        ctaText={hero.ctaText} 
+        ctaLink={hero.ctaLink} 
+        gallery={hero.gallery} 
       />
-
-      {/* About section */}
-      <About
-        title={data.about.title}
-        description={data.about.description}
-        steps={data.about.steps}
-        next={data.about.next}
-        edition={data.about.edition}
-        highlights={data.about.highlights}
-        id="about"
+      <AboutComponent
+        title={about.title}
+        description={about.description}
+        items={about.items}
       />
-
-      {/* Partners section */}
-      <Partners 
-        title={data.partners.title} 
-        list={data.partners.list} 
-        id="partners" 
+      <PartnersComponent
+        title={partners.title}
+        description={partners.description}
+        items={partners.items}
+        ctaText={partners.ctaText}
+        ctaLink={partners.ctaLink}
       />
-
-      {/* Sponsorship section */}
-      <Sponsorship
-        title={data.sponsorship.title}
-        description={data.sponsorship.description}
-        benefits={data.sponsorship.benefits}
-        button={data.sponsorship.button}
-        id="sponsorship"
+      <TeamComponent
+        title={team.title}
+        description={team.description}
+        members={team.members}
+        ctaText={team.ctaText}
+        ctaLink={team.ctaLink}
       />
-
-      {/* Team section */}
-      <Team 
-        title={data.team.title} 
-        members={data.team.members} 
-        id="team" 
+      <SponsorComponent
+        title={sponsor.title}
+        description={sponsor.description}
+        ctaText={sponsor.ctaText}
+        ctaLink={sponsor.ctaLink}
       />
-
-      {/* Contact section */}
-      <Contact
-        title={data.contact.title}
-        email={data.contact.email}
-        phone={data.contact.phone}
-        id="contact" 
+      <ContactComponent 
+        title={contact.title}
+        description={contact.description}
+        ctaText={contact.ctaText}
+        ctaLink={contact.ctaLink}
       />
-
-      {/* Footer */}
-      <Footer text={data.footer.text} 
-        socialMedia={data.footer.socialMedia} 
-        id="footer" 
-      /> 
+      <FooterComponent 
+        logo={footer.logo} 
+        darkMode={isDarkMode}
+        socialLinks={footer.socialLinks} 
+        copyright={footer.copyright}
+      />
     </div>
   );
 };

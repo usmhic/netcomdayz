@@ -1,49 +1,24 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
-const Footer = ({ text, socialMedia }) => {
+const Footer = ({ logo, darkMode, socialLinks, copyright }) => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="py-6 bg-gray-100 dark:bg-gray-900">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center">
-          <motion.p
-            className="text-sm text-gray-600 dark:text-gray-300 flex items-center"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            {text}
-            <span className="ml-2 flex">
-              {Object.entries(socialMedia).map(([platform, link], index) => {
-                let icon;
-                switch (platform) {
-                  case 'facebook':
-                    icon = <FaFacebook />;
-                    break;
-                  case 'linkedin':
-                    icon = <FaLinkedin />;
-                    break;
-                  case 'instagram':
-                    icon = <FaInstagram />;
-                    break;
-                  default:
-                    icon = null;
-                }
-                return (
-                  <a
-                    key={index}
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 dark:text-gray-300 hover:text-gray-900 ml-2"
-                  >
-                    {icon}
-                  </a>
-                );
-              })}
-            </span>
-          </motion.p>
+    <footer className={`bg-gray-200 dark:bg-gray-900 py-8`}>
+      <div className={`container mx-auto px-4`}>
+        <div className={`flex items-center justify-between`}>
+          <div className={`flex items-center`}><img src={darkMode ? logo.dark : logo.light} alt="NetComDayz" className={`h-12`} /></div>
+          <div className={`flex space-x-4`}>
+            {socialLinks.map((link, index) => (<a key={index} href={link.link} className={`hover:text-red-700 transition duration-300 flex items-center text-gray-800 dark:text-gray-100`} target="_blank" rel="noopener noreferrer">
+              {link.text === 'Instagram' && <FaInstagram className={`w-5 h-5 mr-1`} />}
+              {link.text === 'LinkedIn' && <FaLinkedin className={`w-5 h-5 mr-1`} />}
+              {link.text === 'Facebook' && <FaFacebook className={`w-5 h-5 mr-1`} />}
+            </a>))}
+          </div>
+        </div>
+        <div className={`mt-4 text-center`}>
+          &copy; {currentYear} {copyright} {' '}<a href="https://www.netcomdayz.com" className={`text-red-700 dark:text-red-300 hover:text-red-600 dark:hover:text-red-500 ml-1 transition duration-300`} target="_blank" rel="noopener noreferrer">NetComDayz</a>
         </div>
       </div>
     </footer>

@@ -1,0 +1,133 @@
+{
+  "header": {
+    "logo": {
+      "light": "/assets/logo/prlms-logo-red-hollow.png",
+      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+    },
+    "menuItems": [
+      {
+        "text": "Comment ça marche",
+        "link": "about"
+      },
+      {
+        "text": "Comment adhérer",
+        "link": "partners"
+      },
+      {
+        "text": "Rencontrez l'équipe",
+        "link": "team"
+      },
+      {
+        "text": "Passer à HyprSol",
+        "link": "sponsor"
+      }
+    ]
+  },
+  "hero": {
+    "title": "Bienpartners sur NetComDayz",
+    "description": "Donner le pouvoir aux résolveurs de problèmes pour créer des solutions innovantes",
+    "ctaText": "Commencer",
+    "ctaLink": "#get-started"
+  },
+  "about": {
+    "title": "Comment fonctionne NetComDayz",
+    "description": "NetComDayz est une plateforme innovante qui vise à révolutionner la façon dont les problèmes sont résolus. Nous croyons que la collaboration, la communauté et la technologie avancée sont les clés pour débloquer des solutions révolutionnaires. Avec NetComDayz, nous avons créé un projet essentiel qui répond aux besoins des résolveurs de problèmes du monde entier.",
+    "steps": [
+      {
+        "title": "Étape 1 : Profil personnel",
+        "description": "Commencez par créer un profil personnel mettant en valeur les projets sur lesquels vous avez travaillé ou travaillez actuellement. Mettez en valeur votre expertise et entrez en contact avec des résolveurs de problèmes partageant les mêmes idées."
+      },
+      {
+        "title": "Étape 2 : Publier, Aimer et Enregistrer des projets",
+        "description": "Partagez vos projets avec la communauté, explorez les idées des autres et montrez votre appréciation en aimant et en enregistrant les projets qui vous inspirent."
+      },
+      {
+        "title": "Étape 3 : Collaboration et messagerie",
+        "description": "Collaborez avec d'autres membres de la communauté NetComDayz grâce à la messagerie et aux discussions. Favorisez une culture d'innovation et de travail d'équipe."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Comment adhérer à NetComDayz",
+    "description": "Rejoindre NetComDayz est facile et ouvre un monde d'opportunités pour présenter vos projets, vous connecter avec une communauté d'experts et d'innovateurs, et collaborer pour améliorer les solutions. Voici comment vous pouvez faire partie de notre communauté exclusive :",
+    "steps": [
+      {
+        "title": "Étape 1 : Remplir le formulaire d'inscription",
+        "description": "Commencez par remplir le formulaire d'inscription avec vos coordonnées. Parlez-nous de votre parcours, de votre expertise et du type de projets qui vous passionnent pour les résoudre."
+      },
+      {
+        "title": "Étape 2 : Recevoir l'acceptation et le formulaire d'inscription",
+        "description": "Une fois que votre inscription est examinée, vous recevrez une notification d'acceptation. Si vous êtes accepté, vous recevrez le formulaire d'inscription officiel pour compléter votre profil."
+      },
+      {
+        "title": "Étape 3 : Intégration et configuration du profil",
+        "description": "Suivez le processus d'intégration pour configurer votre profil. Mettez en valeur vos projets, compétences et centres d'intérêt pour attirer des collaborateurs et des opportunités."
+      },
+      {
+        "title": "Étape 4 : Commencer à publier vos projets",
+        "description": "Une fois que votre profil est prêt, commencez à publier vos projets sur NetComDayz. Partagez vos solutions innovantes, demandez des retours et inspirez les autres avec votre parcours de résolution de problèmes."
+      }
+    ],
+    "ctaText": "Rejoindre maintenant",
+    "ctaLink": "join"
+  },
+  "team": {
+    "title": "Rencontrez l'équipe NetComDayz",
+    "description": "Chez NetComDayz, notre équipe est passionnée par l'autonomisation des résolveurs de problèmes comme vous. Faites connaissance avec les visages derrière la plateforme qui travaillent sans relâche pour soutenir et favoriser une communauté d'innovation.",
+    "members": [
+      {
+        "name": "Oussama Hichou",
+        "role": "Chef d'équipe",
+        "image": "https://media.licdn.com/dms/image/D4E03AQHNuwkpGPdgbw/profile-displayphoto-shrink_800_800/0/1677779260274?e=1692230400&v=beta&t=-deiugyfLoKyf7-V4K4uuAMgyKMWLQw752-B87Phips",
+        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
+      },
+      {
+        "name": "Abderrahim Fazazi",
+        "role": "Responsable technique",
+        "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216/"
+      },
+      {
+        "name": "Mohamed Benjouad",
+        "role": "Responsable de la recherche et de l'innovation",
+        "image": "",
+        "linkedin": ""
+      }
+    ]
+  },
+  "sponsor": {
+    "title": "Passer à HyprSol",
+    "description": "Êtes-vous prêt à amener vos capacités de résolution de problèmes au niveau supérieur ? Passez à HyprSol, notre plan d'abonnement premium qui offre des fonctionnalités et des avantages exclusifs. Débloquez l'accès à des algorithmes d'intelligence artificielle avancés, un support personnalisé et bien plus encore. Rejoignez la communauté d'élite des résolveurs de problèmes qui ont adopté HyprSol pour obtenir des résultats exceptionnels.",
+    "ctaText": "Mettre à niveau maintenant",
+    "ctaLink": "upgrade"
+  },
+  "footer": {
+    "logo": {
+      "light": "/assets/logo/prlms-logo-red-hollow.png",
+      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+    },
+    "copyright": "Tous droits réservés.",
+    "socialLinks": [
+      {
+        "text": "mail",
+        "link": "mailto:info@netcomdayz.com"
+      },
+      {
+        "text": "youtube",
+        "link": "https://www.youtube.com/@NetComDayz"
+      },
+      {
+        "text": "instagram",
+        "link": "https://www.instagram.com/NetComDayz"
+      },
+      {
+        "text": "linkedin",
+        "link": "https://www.linkedin.com/company/NetComDayz"
+      },
+      {
+        "text": "facebook",
+        "link": "https://www.facebook.com/NetComDayz"
+      }
+    ]
+  }
+}

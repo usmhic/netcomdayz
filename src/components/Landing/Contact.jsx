@@ -1,31 +1,22 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
-const Contact = ({ title, email, phone }) => {
+const ContactComponent = ({ title, description, ctaText, ctaLink }) => {
   return (
-    <section id="contact" className="bg-gray-100 dark:bg-gray-900 py-10">
-      <div className="container mx-auto px-6">
-        <div className="max-w-3xl mx-auto">
-          <motion.h2
-            className="text-3xl lg:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-8 text-center"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+    <section id="contact" className="py-20 bg-gray-200 dark:bg-gray-900">
+      <div className="container mx-auto px-4">
+        <div className="text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-6">{title}</h2>
+          <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8">{description}</p>
+          <a
+            href={ctaLink}
+            className="inline-block bg-red-500 dark:bg-red-600 hover:bg-red-600 dark:hover:bg-red-700 focus:bg-red-600 dark:focus:bg-red-700 text-white dark:text-gray-300 px-6 py-3 rounded-md font-medium transition duration-300 focus:outline-none focus:ring-2 focus:ring-red-500"
           >
-            {title}
-          </motion.h2>
-          <div className="flex flex-col items-center">
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-              <a href={`mailto:${email}`} className="text-rose-600 dark:text-rose-300 hover:underline">{email}</a>
-            </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
-             {phone}
-            </p>
-          </div>
+            {ctaText}
+          </a>
         </div>
       </div>
     </section>
   );
 };
 
-export default Contact;
+export default ContactComponent;

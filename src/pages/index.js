@@ -1,12 +1,9 @@
-import React from 'react';
-import Landing from '../components/Landing';
+import Landing from '../components/Landing'
 
-const Home = () => {
+export default function Home() {
   return (
     <>
-      <Landing />
+      <Landing/>
     </>
-  );
-};
-
-export default Home;
+  )
+}
