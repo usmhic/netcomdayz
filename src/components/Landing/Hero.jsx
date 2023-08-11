@@ -20,7 +20,7 @@ const Hero = ({ title, description, ctaText, ctaLink, gallery, isDarkMode }) => 
             </p>
             <a
               href={ctaLink}
-              className="inline-block bg-red-500 dark:bg-red-600 hover:bg-red-600 dark:hover:bg-red-700 focus:bg-red-600 dark:focus:bg-red-700 text-white dark:text-gray-300 px-6 py-3 rounded-md font-medium transition duration-300 focus:outline-none focus:ring-2 focus:ring-red-500"
+              className="inline-block bg-red-500 dark:bg-indigo-600 hover:bg-red-600 dark:hover:bg-indigo-700 focus:bg-red-600 dark:focus:bg-indigo-700 text-white dark:text-gray-300 px-6 py-3 rounded-md font-medium transition duration-300 focus:outline-none focus:ring-2 focus:ring-red-500"
             >
               {ctaText}
             </a>

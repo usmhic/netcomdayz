@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import { FiSun, FiMoon, FiMenu } from 'react-icons/fi';
 
-const Header = ({ logo, menuItems, darkMode, onDarkModeToggle, onLanguageChange, selectedLanguage }) => {
+const Header = ({
+  logo,
+  menuItems,
+  darkMode,
+  onDarkModeToggle,
+  onLanguageChange,
+  selectedLanguage,
+  scrollToSection,
+  isSticky,
+}) => {
   const [showMenu, setShowMenu] = useState(false);
   const [showPhoneMenu, setShowPhoneMenu] = useState(false);
 
@@ -21,21 +30,21 @@ const Header = ({ logo, menuItems, darkMode, onDarkModeToggle, onLanguageChange,
   };
 
   return (
-    <header className="py-4 px-6 bg-gray-200 dark:bg-slate-800">
+    <header className={`py-4 px-6 bg-gray-200 dark:bg-slate-800 ${isSticky ? 'sticky top-0 z-50' : ''}`}>
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img src={darkMode ? logo.dark : logo.light} alt="Logo" className="h-14" />
         </div>
 
         <nav
-          className={`md:flex items-start md:items-center ${showMenu ? 'block' : 'hidden'
+          className={`md:flex items-center ${showMenu ? 'block' : 'hidden'
             } md:space-x-4 mt-4 md:mt-0`}
         >
-          <div className="flex flex-col md:flex-row md:space-x-4">
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
             {menuItems.map((menuItem, index) => (
               <button
                 key={index}
-                className="px-4 py-2 rounded-full text-gray-800 dark:text-white hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-600 transition duration-300"
+                className="px-3 py-1 rounded-full text-gray-800 dark:text-white hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-600 transition duration-300"
                 onClick={() => handleClick(menuItem.link)}
               >
                 {menuItem.text}

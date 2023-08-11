@@ -1,4 +1,8 @@
 { 
+  "logo": {
+    "light": "/assets/logo/black-trans.png",
+    "dark": "/assets/logo/white-trans.png"
+  },
   "day1": {
     "date":"30 September 2023",
     "day":"Saturday",
