@@ -97,37 +97,37 @@
     "members": [
       {
         "name": "Rabii El Haili",
-        "position": "Tech Enthusiast",
+        "position": "Team Leader",
         "image": "https://media.licdn.com/dms/image/C4D03AQFIhtFmJF2tSQ/profile-displayphoto-shrink_400_400/0/1648424129664?e=1692230400&v=beta&t=TFKONggTolmxAebebfRYmpX1R2jTqx8p8KSTYFlvPSU",
         "linkedin": "https://www.linkedin.com/in/rab%C3%AF-el-haili-2b7b89180/"
       },
       {
         "name": "Fatima Ezzahrae Taouil",
-        "position": "Project Manager",
+        "position": "Sponsoring Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
         "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
       },
       {
         "name": "Oussama Hichou",
-        "position": "Project Manager",
+        "position": "Hackathon Team",
         "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
         "linkedin": "https://www.linkedin.com/in/oussamahichou/"
       },
       {
         "name": "Abderrahim Fazazi",
-        "position": "Project Manager",
+        "position": "Head of Logistics",
         "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
         "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216"
       },
       {
         "name": "Maryam El Mansouri ",
-        "position": "Project Manager",
+        "position": "Head of Design",
         "image": "https://media.licdn.com/dms/image/D4D03AQE780TAqnQulw/profile-displayphoto-shrink_400_400/0/1680742760888?e=1697068800&v=beta&t=-WQgJj-X_nlr4u3fVw5Unu-x41QK4UlK3idbgx1qLfs",
         "linkedin": "https://www.linkedin.com/in/maryem-el-mansouri-5b6b60195"
       },      
       {
         "name": "Aya El Kamel",
-        "position": "Project Manager",
+        "position": "Head of Media",
         "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
         "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
       }
@@ -154,7 +154,7 @@
     "socialLinks": [
       {
         "text": "Instagram",
-        "link": "https://www.instagram.com/NetComDayz"
+        "link": "https://www.instagram.com/netcomdayzensat/"
       },
       {
         "text": "LinkedIn",
@@ -162,7 +162,7 @@
       },
       {
         "text": "Facebook",
-        "link": "https://www.facebook.com/NetComDayz"
+        "link": "https://www.linkedin.com/showcase/netcom-day-ensat/"
       }
     ]
   }

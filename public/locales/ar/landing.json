@@ -1,132 +1,168 @@
 {
   "header": {
     "logo": {
-      "light": "/assets/logo/prlms-logo-red-hollow.png",
-      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
     },
     "menuItems": [
       {
-        "text": "كيف يعمل",
+        "text": "حول",
         "link": "about"
       },
       {
-        "text": "كيفية الانضمام",
+        "text": "شركاء",
         "link": "partners"
       },
       {
-        "text": "تعرف على الفريق",
+        "text": "الفريق",
         "link": "team"
       },
       {
-        "text": "ترقية إلى HyprSol",
+        "text": "راعي",
         "link": "sponsor"
+      },
+      {
+        "text": "اتصال",
+        "link": "contact"
       }
     ]
   },
   "hero": {
-    "title": "مرحبًا بك في NetComDayz",
-    "description": "تمكين حل المشكلات لإنشاء حلول مبتكرة",
-    "ctaText": "البدء",
-    "ctaLink": "#get-started"
+    "title": "خوض تجربة نيتكوم دايز",
+    "description": "ساحة فضائية لعجائب التكنولوجيا",
+    "ctaText": "استكشف المزيد",
+    "ctaLink": "#about",
+    "gallery": "/assets/gallery"
   },
   "about": {
-    "title": "كيف يعمل NetComDayz",
-    "description": "NetComDayz هي منصة مبتكرة تهدف إلى ثورة في طريقة حل المشكلات. نحن نؤمن بأن التعاون والمجتمع والتكنولوجيا المتقدمة هي مفاتيح فتح الحلول الرائدة. مع NetComDayz، قمنا بإنشاء مشروع أساسي يلبي احتياجات حل المشكلات في جميع أنحاء العالم.",
-    "steps": [
+    "title": "اكتشف نيتكوم دايز",
+    "description": "نيتكوم دايز هو المكان الذي تتقاطع فيه عقول الأشخاص المهووسين بالتكنولوجيا والحلم والجيك! تخيل مكانًا حيث تتعايش علوم الفضاء والبيانات المفتوحة والتكنولوجيا المستقبلية بانسجام. انطلق في رحلة عبر الكون، واستخدم قوة البيانات، واقترب من أحدث التقنيات. انضم إلينا في إعادة كتابة قواعد ما هو ممكن!",
+    "items": [
       {
-        "title": "الخطوة 1: الملف الشخصي الشخصي",
-        "description": "ابدأ بإنشاء ملف شخصي يسلط الضوء على المشاريع التي عملت عليها أو تعمل عليها حاليًا. قم بعرض خبرتك وتواصل مع حل المشكلات الذين يتشاركون في نفس رؤيتك."
+        "title": "رحلة فضائية",
+        "description": "انطلق في رحلات فضائية واكتشف أسرار الكون.",
+        "image": "/assets/images/space_science.png",
+        "ctaText": "تعرف أكثر عن علوم الفضاء",
+        "ctaLink": "https://en.wikipedia.org/wiki/Communications_satellite"
       },
       {
-        "title": "الخطوة 2: نشر، إعجاب وحفظ المشاريع",
-        "description": "شارك مشاريعك مع المجتمع، استكشف أفكار الآخرين، وأظهر تقديرك من خلال الإعجاب بالمشاريع وحفظها التي تلهمك."
+        "title": "مغامرات البيانات",
+        "description": "استكشف عجائب البيانات التي تشكل عالمنا ومستقبلنا.",
+        "image": "/assets/images/open_data.png",
+        "ctaText": "تعرف أكثر عن البيانات المفتوحة",
+        "ctaLink": "https://en.wikipedia.org/wiki/Open_data"
       },
       {
-        "title": "الخطوة 3: التعاون والمراسلة",
-        "description": "تعاون مع أعضاء آخرين في مجتمع NetComDayz من خلال المراسلات والمناقشات. نمّي ثقافة الابتكار وروح العمل الجماعي."
+        "title": "عجائب التكنولوجيا",
+        "description": "استمتع بعالم من التكنولوجيا الخيالية والعجائب الابتكارية.",
+        "image": "/assets/images/latest_tech.png",
+        "ctaText": "تعرف أكثر عن أحدث التقنيات",
+        "ctaLink": "https://en.wikipedia.org/wiki/Information_and_communications_technology"
       }
     ]
   },
   "partners": {
-    "title": "كيفية الانضمام إلى NetComDayz",
-    "description": "الانضمام إلى NetComDayz سهل ويفتح عالمًا من الفرص لعرض مشاريعك، والتواصل مع مجتمع من الخبراء والمبتكرين، والتعاون لتعزيز الحلول. إليك كيف يمكنك أن تصبح جزءًا من مجتمعنا الحصري:",
-    "steps": [
+    "title": "شركاء الحلم لدينا",
+    "description": "تتحقق الأحلام بتعاون العقول والشركاء!",
+    "items": [
       {
-        "title": "الخطوة 1: ملء استمارة التسجيل",
-        "description": "ابدأ بملء استمارة التسجيل بتفاصيلك. أخبرنا عن خلفيتك وخبرتك ونوع المشاريع التي تهتم بحلها."
+        "title": "Telnet Club، ENSA de Tanger",
+        "image": "https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/327157202_1535700160244921_4760923483827831710_n.png?_nc_cat=102&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeFmgWe1MMac9ZGhoqtEa71htAtwxdX_EYO0C3DF1f8Rgw-nsdv5Mr97W8RYarPXEhSb4yHWWWJphdpZrVIiIj4a&_nc_ohc=wSi0Bew41A8AX9ndu8C&_nc_ht=scontent.frba2-1.fna&oh=00_AfBjLPoAaEXTMNDhKmZ1Jm9f_1d3FHJt7BgcCFWt_dKaJg&oe=64DA363E",
+        "link": "https://www.linkedin.com/showcase/netcom-day-ensat/"
+
       },
       {
-        "title": "الخطوة 2: استلام قبول واستمارة التسجيل",
-        "description": "عند مراجعة طلب التسجيل الخاص بك، ستتلقى إشعارًا بالقبول. إذا تم قبولك، ستحصل على استمارة التسجيل الرسمية لاستكمال ملفك الشخصي."
+        "title": "ActiveLabs، Technopark",
+        "image": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/373008/Activelabs_Fav_Transp_dqhww7.png",
+        "link": "https://www.activelabs.ma/"
+
       },
       {
-        "title": "الخطوة 3: الانضمام وإعداد الملف الشخصي",
-        "description": "اتبع عملية الانضمام لإعداد ملفك الشخصي. قم بعرض مشاريعك ومهاراتك واهتماماتك لجذب المتعاونين والفرص."
+        "title": "تحدي NASA Space Apps",
+        "image": "https://assets.spaceappschallenge.org/media/images/SpaceAppsLogo_Default_2ColorWhi.width-440.jpegquality-60.png",
+        "link": "https://www.spaceappschallenge.org/2023/locations/tangier/"
       },
       {
-        "title": "الخطوة 4: ابدأ بنشر مشاريعك",
-        "description": "بمجرد جاهزية ملفك الشخصي، ابدأ بنشر مشاريعك على NetComDayz. شارك الحلول الابتكارية الخاصة بك، واطلب تعليقات، وألهم الآخرين برحلتك في حل المشكلات."
+        "title": "مجتمع مايتا",
+        "image": "https://www.mytacom.net/_next/image?url=%2Fmyta.png&w=128&q=75",
+        "link": "https://www.mytacom.net/"
       }
     ],
-    "ctaText": "انضم الآن",
-    "ctaLink": "join"
+    "ctaText": "كن شريكًا",
+    "ctaLink": "partner"
   },
   "team": {
-    "title": "تعرف على فريق NetComDayz",
-    "description": "في NetComDayz، يشعر فريقنا بالشغف لتمكين حل المشكلات مثلك. تعرف على الأشخاص وراء المنصة الذين يعملون بلا كلل لدعم وتعزيز مجتمع الابتكار.",
+    "title": "تعرف على صنّاع الأحلام",
+    "description": "صنّاع السحر وراء نيتكوم دايز!",
     "members": [
       {
+        "name": "ربيع الحيلي",
+        "position": "قائد الفريق",
+        "image": "https://media.licdn.com/dms/image/C4D03AQFIhtFmJF2tSQ/profile-displayphoto-shrink_400_400/0/1648424129664?e=1692230400&v=beta&t=TFKONggTolmxAebebfRYmpX1R2jTqx8p8KSTYFlvPSU",
+        "linkedin": "https://www.linkedin.com/in/rab%C3%AF-el-haili-2b7b89180/"
+      },
+      {
+        "name": "فاطمة الزهراء تاويل",
+        "position": "فريق الرعاية",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
+        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
+      },
+      {
         "name": "أسامة هشو",
-        "role": "قائد الفريق",
-        "image": "https://media.licdn.com/dms/image/D4E03AQHNuwkpGPdgbw/profile-displayphoto-shrink_800_800/0/1677779260274?e=1692230400&v=beta&t=-deiugyfLoKyf7-V4K4uuAMgyKMWLQw752-B87Phips",
+        "position": "فريق الهاكاثون",
+        "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
         "linkedin": "https://www.linkedin.com/in/oussamahichou/"
       },
       {
-        "name": "عبد الرحيم فزازي",
-        "role": "رئيس التكنولوجيا",
+        "name": "عبد الرحيم فازازي",
+        "position": "رئيس اللوجستيات",
         "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
-        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216/"
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216"
       },
       {
-        "name": "محمد بن جواد",
-        "role": "رئيس البحث والابتكار",
-        "image": "",
-        "linkedin": ""
+        "name": "مريم المنصوري",
+        "position": "رئيس التصميم",
+        "image": "https://media.licdn.com/dms/image/D4D03AQE780TAqnQulw/profile-displayphoto-shrink_400_400/0/1680742760888?e=1697068800&v=beta&t=-WQgJj-X_nlr4u3fVw5Unu-x41QK4UlK3idbgx1qLfs",
+        "linkedin": "https://www.linkedin.com/in/maryem-el-mansouri-5b6b60195"
+      },
+      {
+        "name": "آية الكامل",
+        "position": "رئيس الوسائط",
+        "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
+        "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
       }
     ]
   },
   "sponsor": {
-    "title": "الترقية إلى HyprSol",
-    "description": "هل أنت مستعد لرفع قدرات حل المشكلات إلى المستوى التالي؟ قم بالترقية إلى HyprSol، خطة الاشتراك الرئيسية لدينا التي توفر ميزات وفوائد حصرية. احصل على وصول إلى خوارزميات الذكاء الاصطناعي المتقدمة والدعم الشخصي وأكثر من ذلك. انضم إلى مجتمع الحل المميز للمشكلات الذين اعتمدوا على HyprSol لتحقيق نتائج استثنائية.",
-    "ctaText": "الترقية الآن",
-    "ctaLink": "upgrade"
+    "title": "كن رفيقنا الفضائي",
+    "description": "انضم إلينا في رحلة تكنولوجية مذهلة مع نيتكوم دايز!",
+    "ctaText": "رعاية",
+    "ctaLink": "sponsor"
+  },
+  "contact": {
+    "title": "لنتحدث!",
+    "description": "هل لديك أفكار، أسئلة، أو ترغب فقط في الانضمام إلى المرح؟ تواصل معنا!",
+    "ctaText": "قل مرحبًا",
+    "ctaLink": "mailto:oussama@netcomdayz.com"
   },
   "footer": {
     "logo": {
-      "light": "/assets/logo/prlms-logo-red-hollow.png",
-      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
     },
     "copyright": "كل الحقوق محفوظة.",
     "socialLinks": [
       {
-        "text": "mail",
-        "link": "mailto:info@netcomdayz.com"
+        "text": "إنستجرام",
+        "link": "https://www.instagram.com/netcomdayzensat/"
       },
       {
-        "text": "youtube",
-        "link": "https://www.youtube.com/@NetComDayz"
-      },
-      {
-        "text": "instagram",
-        "link": "https://www.instagram.com/NetComDayz"
-      },
-      {
-        "text": "linkedin",
+        "text": "لينكد إن",
         "link": "https://www.linkedin.com/company/NetComDayz"
       },
       {
-        "text": "facebook",
-        "link": "https://www.facebook.com/NetComDayz"
+        "text": "فيسبوك",
+        "link": "https://www.linkedin.com/showcase/netcom-day-ensat/"
       }
     ]
   }

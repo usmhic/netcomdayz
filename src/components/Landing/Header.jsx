@@ -65,10 +65,10 @@ const Header = ({
             onChange={(e) => onLanguageChange(e.target.value)}
             className="text-slate-900 dark:text-white bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-md px-3 py-2 focus:outline-none"
           >
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
             <option value="en">English</option>
             <option value="es">Español</option>
-            <option value="ar">العربية</option>
-            <option value="fr">Français</option>
           </select>
           <button
             className="text-slate-900 dark:text-white hover:text-red-500 transition duration-300 md:hidden"

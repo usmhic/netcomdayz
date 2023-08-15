@@ -1,132 +1,168 @@
 {
   "header": {
     "logo": {
-      "light": "/assets/logo/prlms-logo-red-hollow.png",
-      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
     },
     "menuItems": [
       {
-        "text": "Cómo funciona",
+        "text": "Acerca de",
         "link": "about"
       },
       {
-        "text": "Cómo unirse",
+        "text": "Colaboradores",
         "link": "partners"
       },
       {
-        "text": "Conoce al equipo",
+        "text": "Equipo",
         "link": "team"
       },
       {
-        "text": "Actualizar a HyprSol",
+        "text": "Patrocinador",
         "link": "sponsor"
+      },
+      {
+        "text": "Contacto",
+        "link": "contact"
       }
     ]
   },
   "hero": {
-    "title": "Bienvenido a NetComDayz",
-    "description": "Empoderando a los solucionadores de problemas para crear soluciones innovadoras",
-    "ctaText": "Comenzar",
-    "ctaLink": "#get-started"
+    "title": "Adéntrate en NetComDayz",
+    "description": "Un parque tecnológico galáctico de maravillas tecnológicas",
+    "ctaText": "Explora Más",
+    "ctaLink": "#about",
+    "gallery": "/assets/gallery"
   },
   "about": {
-    "title": "Cómo funciona NetComDayz",
-    "description": "NetComDayz es una plataforma innovadora que busca revolucionar la forma en que se resuelven los problemas. Creemos que la colaboración, la comunidad y la tecnología avanzada son clave para desbloquear soluciones innovadoras. Con NetComDayz, hemos creado un proyecto esencial que atiende las necesidades de los solucionadores de problemas en todo el mundo.",
-    "steps": [
+    "title": "Descubre NetComDayz",
+    "description": "¡NetComDayz es donde los geeks, soñadores y amantes de la tecnología se encuentran! Imagina un espacio donde la ciencia espacial, los datos abiertos y la tecnología futurista coexisten en armonía. Viaja a través del cosmos, libera el poder de los datos y acércate a la tecnología de vanguardia. ¡Únete a nosotros para reescribir las reglas de lo que es posible!",
+    "items": [
       {
-        "title": "Paso 1: Perfil personal",
-        "description": "Comienza creando un perfil personal destacando los proyectos en los que has trabajado o estás trabajando actualmente. Muestra tu experiencia y conecta con solucionadores de problemas afines."
+        "title": "Odisea Cósmica",
+        "description": "Embárcate en misiones espaciales y descubre los misterios cósmicos.",
+        "image": "/assets/images/space_science.png",
+        "ctaText": "Más información sobre la ciencia espacial",
+        "ctaLink": "https://es.wikipedia.org/wiki/Sat%C3%A9lite_de_comunicaciones"
       },
       {
-        "title": "Paso 2: Publicar, dar me gusta y guardar proyectos",
-        "description": "Comparte tus proyectos con la comunidad, explora las ideas de otros y muestra tu aprecio dándole me gusta y guardando los proyectos que te inspiran."
+        "title": "Aventuras de Datos",
+        "description": "Explora las maravillas de los datos que moldean nuestro mundo y futuro.",
+        "image": "/assets/images/open_data.png",
+        "ctaText": "Más información sobre los datos abiertos",
+        "ctaLink": "https://es.wikipedia.org/wiki/Datos_abiertos"
       },
       {
-        "title": "Paso 3: Colaboración y mensajería",
-        "description": "Colabora con otros miembros de la comunidad NetComDayz a través de mensajes y discusiones. Fomenta una cultura de innovación y trabajo en equipo."
+        "title": "Maravillas Tecnológicas",
+        "description": "Sumérgete en un mundo de tecnología de ciencia ficción y maravillas innovadoras.",
+        "image": "/assets/images/latest_tech.png",
+        "ctaText": "Más información sobre las últimas tecnologías",
+        "ctaLink": "https://es.wikipedia.org/wiki/Tecnolog%C3%ADas_de_la_informaci%C3%B3n_y_comunicaci%C3%B3n"
       }
     ]
   },
   "partners": {
-    "title": "Cómo unirse a NetComDayz",
-    "description": "Unirse a NetComDayz es fácil y abre un mundo de oportunidades para mostrar tus proyectos, conectarte con una comunidad de expertos e innovadores, y colaborar para mejorar las soluciones. Así es como puedes formar parte de nuestra comunidad exclusiva:",
-    "steps": [
+    "title": "Nuestros Colaboradores de Ensueño",
+    "description": "¡Los sueños se hacen realidad con mentes colaborativas y colaboradores!",
+    "items": [
       {
-        "title": "Paso 1: Llenar el formulario de registro",
-        "description": "Comienza completando el formulario de registro con tus datos. Cuéntanos sobre tu experiencia, habilidades y el tipo de proyectos que te apasiona resolver."
+        "title": "Telnet Club, ENSA de Tanger",
+        "image": "https://scontent.frba2-1.fna.fbcdn.net/v/t39.30808-6/327157202_1535700160244921_4760923483827831710_n.png?_nc_cat=102&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeFmgWe1MMac9ZGhoqtEa71htAtwxdX_EYO0C3DF1f8Rgw-nsdv5Mr97W8RYarPXEhSb4yHWWWJphdpZrVIiIj4a&_nc_ohc=wSi0Bew41A8AX9ndu8C&_nc_ht=scontent.frba2-1.fna&oh=00_AfBjLPoAaEXTMNDhKmZ1Jm9f_1d3FHJt7BgcCFWt_dKaJg&oe=64DA363E",
+        "link": "https://www.linkedin.com/showcase/netcom-day-ensat/"
+
       },
       {
-        "title": "Paso 2: Recibir aceptación y formulario de registro",
-        "description": "Una vez que revisemos tu registro, recibirás una notificación de aceptación. Si eres aceptado, recibirás el formulario de registro oficial para completar tu perfil."
+        "title": "ActiveLabs, Technopark",
+        "image": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/373008/Activelabs_Fav_Transp_dqhww7.png",
+        "link": "https://www.activelabs.ma/"
+
       },
       {
-        "title": "Paso 3: Incorporación y configuración del perfil",
-        "description": "Sigue el proceso de incorporación para configurar tu perfil. Muestra tus proyectos, habilidades e intereses para atraer colaboradores y oportunidades."
+        "title": "NASA Space Apps Challenge",
+        "image": "https://assets.spaceappschallenge.org/media/images/SpaceAppsLogo_Default_2ColorWhi.width-440.jpegquality-60.png",
+        "link": "https://www.spaceappschallenge.org/2023/locations/tangier/"
       },
       {
-        "title": "Paso 4: Comienza a publicar tus proyectos",
-        "description": "Una vez que tu perfil esté listo, comienza a publicar tus proyectos en NetComDayz. Comparte tus soluciones innovadoras, solicita feedback e inspira a otros con tu camino de resolución de problemas."
+        "title": "Comunidad Myta",
+        "image": "https://www.mytacom.net/_next/image?url=%2Fmyta.png&w=128&q=75",
+        "link": "https://www.mytacom.net/"
       }
     ],
-    "ctaText": "Únete ahora",
-    "ctaLink": "join"
+    "ctaText": "Conviértete en Colaborador",
+    "ctaLink": "partner"
   },
   "team": {
-    "title": "Conoce al equipo de NetComDayz",
-    "description": "En NetComDayz, nuestro equipo está apasionado por empoderar a solucionadores de problemas como tú. Conoce a las personas detrás de la plataforma que trabajan incansablemente para apoyar y fomentar una comunidad de innovación.",
+    "title": "Conoce a los Tejedores de Sueños",
+    "description": "¡Los hacedores de magia detrás de NetComDayz!",
     "members": [
       {
+        "name": "Rabii El Haili",
+        "position": "Líder del Equipo",
+        "image": "https://media.licdn.com/dms/image/C4D03AQFIhtFmJF2tSQ/profile-displayphoto-shrink_400_400/0/1648424129664?e=1692230400&v=beta&t=TFKONggTolmxAebebfRYmpX1R2jTqx8p8KSTYFlvPSU",
+        "linkedin": "https://www.linkedin.com/in/rab%C3%AF-el-haili-2b7b89180/"
+      },
+      {
+        "name": "Fatima Ezzahrae Taouil",
+        "position": "Equipo de Patrocinio",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
+        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
+      },
+      {
         "name": "Oussama Hichou",
-        "role": "Líder del equipo",
-        "image": "https://media.licdn.com/dms/image/D4E03AQHNuwkpGPdgbw/profile-displayphoto-shrink_800_800/0/1677779260274?e=1692230400&v=beta&t=-deiugyfLoKyf7-V4K4uuAMgyKMWLQw752-B87Phips",
+        "position": "Equipo de Hackathon",
+        "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
         "linkedin": "https://www.linkedin.com/in/oussamahichou/"
       },
       {
         "name": "Abderrahim Fazazi",
-        "role": "Jefe de Tecnología",
+        "position": "Jefe de Logística",
         "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
-        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216/"
+        "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216"
       },
       {
-        "name": "Mohamed Benjouad",
-        "role": "Jefe de Investigación e Innovación",
-        "image": "",
-        "linkedin": ""
+        "name": "Maryam El Mansouri",
+        "position": "Jefa de Diseño",
+        "image": "https://media.licdn.com/dms/image/D4D03AQE780TAqnQulw/profile-displayphoto-shrink_400_400/0/1680742760888?e=1697068800&v=beta&t=-WQgJj-X_nlr4u3fVw5Unu-x41QK4UlK3idbgx1qLfs",
+        "linkedin": "https://www.linkedin.com/in/maryem-el-mansouri-5b6b60195"
+      },
+      {
+        "name": "Aya El Kamel",
+        "position": "Jefa de Medios",
+        "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
+        "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
       }
     ]
   },
   "sponsor": {
-    "title": "Actualizar a HyprSol",
-    "description": "¿Listo para llevar tus habilidades de resolución de problemas al siguiente nivel? Actualiza a HyprSol, nuestro plan de suscripción premium que ofrece características y beneficios exclusivos. Desbloquea el acceso a algoritmos de IA avanzados, soporte personalizado y más. Únete a la comunidad élite de solucionadores de problemas que han adoptado HyprSol para lograr resultados excepcionales.",
-    "ctaText": "Actualizar ahora",
-    "ctaLink": "upgrade"
+    "title": "Conviértete en Nuestro Compañero Cósmico",
+    "description": "¡Únete a nosotros en el emocionante viaje tecnológico de NetComDayz!",
+    "ctaText": "Patrocinio",
+    "ctaLink": "sponsor"
+  },
+  "contact": {
+    "title": "¡Hablemos!",
+    "description": "¿Tienes ideas, preguntas o simplemente quieres unirte a la diversión? ¡Contáctanos!",
+    "ctaText": "Di Hola",
+    "ctaLink": "mailto:oussama@netcomdayz.com"
   },
   "footer": {
     "logo": {
-      "light": "/assets/logo/prlms-logo-red-hollow.png",
-      "dark": "/assets/logo/prlms-logo-white-hollow.png"
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
     },
     "copyright": "Todos los derechos reservados.",
     "socialLinks": [
       {
-        "text": "mail",
-        "link": "mailto:info@netcomdayz.com"
+        "text": "Instagram",
+        "link": "https://www.instagram.com/netcomdayzensat/"
       },
       {
-        "text": "youtube",
-        "link": "https://www.youtube.com/@NetComDayz"
-      },
-      {
-        "text": "instagram",
-        "link": "https://www.instagram.com/NetComDayz"
-      },
-      {
-        "text": "linkedin",
+        "text": "LinkedIn",
         "link": "https://www.linkedin.com/company/NetComDayz"
       },
       {
-        "text": "facebook",
-        "link": "https://www.facebook.com/NetComDayz"
+        "text": "Facebook",
+        "link": "https://www.linkedin.com/showcase/netcom-day-ensat/"
       }
     ]
   }

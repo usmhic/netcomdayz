@@ -1,9 +1,16 @@
-import Landing from '../components/Landing'
+import React, { useEffect } from 'react';
 
-export default function Home() {
+const PartnerRedirect = () => {
+  useEffect(() => {
+    const emailSubject = encodeURIComponent('Partnership Inquiries');
+    window.location.href = `mailto:oussama@netcomdayz.com?subject=${emailSubject}`;
+  }, []);
+
   return (
-    <>
-      <Landing/>
-    </>
-  )
-}
+    <div className="flex items-center justify-center h-screen bg-gray-100">
+      <img src="/assets/logo/black-trans.png" alt="NetComDayz Logo" className="h-16" />
+    </div>
+  );
+};
+
+export default PartnerRedirect;
