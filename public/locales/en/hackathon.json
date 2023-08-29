@@ -35,44 +35,6 @@
         ]
       },
       {
-        "name": "Opening Ceremony",
-        "participants": ["Registered Participants","Hackathon Mentors","Hackathon Participants", "Forum Participants", "Sponsor Representatives", "Partners Representatives", "Guests" ],
-        "category": "Conference",
-        "startTime": "4:00 PM",
-        "endTime": "4:45 PM",
-        "description": "The event will kick off with an inspiring opening ceremony featuring esteemed speakers and opening remarks."
-      },
-      {
-        "name": "1st Conference",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "4:45 PM",
-        "endTime": "6:00 PM",
-        "description": "Conference on Scientific Research",
-        "subtopics": [
-          "Contributions and Vision of Morocco in Scientific Research",
-          "Exploration of Space Science and Satellite Communications",
-          "Open Science and the Utilization of Open Data",
-          "Effective Utilization of Scientific Data for Various Purposes"
-        ]
-      },
-      {
-        "name": "Coffee Break",
-        "participants": ["Registered Participants"],
-        "category": "Break",
-        "startTime": "6:00 PM",
-        "endTime": "6:45 PM",
-        "description": "Participants can enjoy a coffee break and network with other attendees. Refreshments will be provided during the break."
-      },
-      {
-        "name": "2nd Conference",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "6:45 PM",
-        "endTime": "8:30 PM",
-        "description": "Conference on Space Science and Open Data in Morocco"
-      },
-      {
         "name": "Hackathon 2nd Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
@@ -133,18 +95,6 @@
         ]
       },
       {
-        "name": "Forum",
-        "participants": ["Company Representatives", "Registered Participants"],
-        "category": "Forum",
-        "startTime": "10:30 AM",
-        "endTime": "2:30 PM",
-        "description": "Forum on Latest Technologies & Digital Transformation",
-        "topics": [
-          "IT Trends: Cloud Computing, Telecom, and IoT",
-          "Artificial Intelligence and Its Impact on Enterprises"
-        ]
-      },
-      {
         "name": "Hackathon 4th Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
@@ -158,34 +108,6 @@
             "description": "Selected participants can enjoy a provided lunch to refuel and recharge for the remaining Hackathon activities."
           }
         ]
-      },
-      {
-        "name": "3rd Conference",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "4:00 PM",
-        "endTime": "6:00 PM",
-        "description": "Conference on Extreme Science & Technology",
-        "topics": [
-          "Cutting-edge Technologies and Innovations",
-          "Exploration of Extreme Science and Technological Advancements"
-        ]
-      },
-      {
-        "name": "Coffee Break",
-        "participants": ["Registered Participants"],
-        "category": "Break",
-        "startTime": "6:00 PM",
-        "endTime": "6:45 PM",
-        "description": "Participants can take a coffee break, network, and enjoy refreshments provided during the break."
-      },
-      {
-        "name": "Networking Session",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "6:45 PM",
-        "endTime": "8:00 PM",
-        "description": "Interactive networking session for participants to connect with industry professionals and expand their network."
       },
       {
         "name": "Hackathon 5th Activity",
@@ -248,33 +170,6 @@
         ]
       },
       {
-        "name": "Workshops: for Students and Researchers",
-        "participants": ["Registered Participants"],
-        "category": "Workshops",
-        "startTime": "10:00 AM",
-        "endTime": "2:00 PM",
-        "description": "Empowering Students and Researchers with Technical Skills",
-        "workshopTopics": [
-          "Data Science: Techniques and Applications",
-          "Cloud Computing: Fundamentals and Use Cases",
-          "Artificial Intelligence: Introduction and Practical Insights",
-          "Cybersecurity: Best Practices and Threat Mitigation",
-          "IoT: Connecting the Physical and Digital Worlds"
-        ]
-      },
-      {
-        "name": "Workshops: for Kids",
-        "participants": ["Registered Participants"],
-        "category": "Workshops",
-        "startTime": "10:00 AM",
-        "endTime": "2:00 PM",
-        "description": "Robotics: LEGO, Arduino Kit",
-        "activities": [
-          "Kids will engage in hands-on activities, building robots using LEGO, Arduino kits, and other resources.",
-          "Kids will explore astronomy, observing celestial objects through telescopes and learning about planets in our solar system."
-        ]
-      },
-      {
         "name": "Hackathon 7th Activity",
         "participants": ["Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
@@ -296,14 +191,6 @@
         ]
       },
       {
-        "name": " 4th Conference: Success Story",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "4:00 PM",
-        "endTime": "5:30 PM",
-        "description": "A conference session featuring success stories and experiences shared by industry professionals and experts."
-      },
-      {
         "name": "Hackathon 7th Activity",
         "participants": ["Hackathon Jury", "Hackathon Mentors","Hackathon Participants"],
         "category": "Hackathon",
@@ -323,14 +210,6 @@
             "description": "The winners of the Hackathon will be announced, recognizing their exceptional contributions and achievements."
           }
         ]
-      },
-      {
-        "name": "Closing Ceremony",
-        "participants": ["Registered Participants"],
-        "category": "Conference",
-        "startTime": "6:00 PM",
-        "endTime": "7:00 PM",
-        "description": "The event will conclude with a festive closing ceremony, featuring music, entertainment, and networking opportunities. The Hackathon winners will be acknowledged during the closing ceremony."
       }
     ]
   }   

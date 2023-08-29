@@ -1,9 +1,13 @@
-import Hackathon from '../components/Hackathon'
+import HackathonPage from '../components/Hackathon'
 
-export default function Home() {
+import enData from '/public/locales/en/Hackathon.json';
+
+function App() {
   return (
     <>
-      <Hackathon/>
+      <HackathonPage data={enData} />
     </>
-  )
+  );
 }
+
+export default App;
