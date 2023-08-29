@@ -1,134 +1,56 @@
-import React, { useEffect, useState } from 'react';
-import HeaderComponent from './Landing/Header';
-import HeroComponent from './Landing/Hero';
-import AboutComponent from './Landing/About';
-import PartnersComponent from './Landing/Partners';
-import TeamComponent from './Landing/Team';
-import SponsorComponent from './Landing/Sponsor';
-import ContactComponent from './Landing/Contact';
-import FooterComponent from './Landing/Footer';
+import React, { useState } from 'react';
+import EventComponent from './Venue/Event';
 
-import enData from '/public/locales/en/landing.json';
-import esData from '/public/locales/es/landing.json';
-import arData from '/public/locales/ar/landing.json';
-import frData from '/public/locales/fr/landing.json';
+const VenuePage = ({ data }) => {
+  const { logo, day1, day2 } = data;
+  const [darkMode, setDarkMode] = useState(false);
 
-const Landing = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  const [language, setLanguage] = useState('en');
-  const [isSticky, setIsSticky] = useState(false);
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [isDarkMode]);
-
-  const handleToggle = () => {
-    setIsDarkMode(!isDarkMode);
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
   };
-
-  const handleLanguageChange = (selectedLanguage) => {
-    setLanguage(selectedLanguage);
-  };
-
-  const scrollToSection = () => {
-    // Implement scroll functionality to scroll to the specified section
-  };
-
-  const data = {
-    en: enData,
-    es: esData,
-    ar: arData,
-    fr: frData,
-  };
-
-  const {
-    header,
-    hero,
-    about,
-    partners,
-    team,
-    sponsor,
-    contact,
-    footer
-  } = data[language];
-
-  const isRtl = language === 'ar';
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      const isSticky = scrollTop > 0; // Update this condition as needed
-      setIsSticky(isSticky);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
-    <div className={`bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-100 ${isRtl ? 'rtl' : ''}`}>
-      <HeaderComponent
-        logo={header.logo}
-        menuItems={header.menuItems}
-        darkMode={isDarkMode}
-        onDarkModeToggle={handleToggle}
-        onLanguageChange={handleLanguageChange}
-        selectedLanguage={language}
-        scrollToSection={scrollToSection}
-        isSticky={isSticky}
-      />
-      <HeroComponent 
-        title={hero.title} 
-        description={hero.description} 
-        ctaText={hero.ctaText} 
-        ctaLink={hero.ctaLink} 
-        gallery={hero.gallery} 
-      />
-      <AboutComponent
-        title={about.title}
-        description={about.description}
-        items={about.items}
-      />
-      <PartnersComponent
-        title={partners.title}
-        description={partners.description}
-        items={partners.items}
-        ctaText={partners.ctaText}
-        ctaLink={partners.ctaLink}
-      />
-      <TeamComponent
-        title={team.title}
-        description={team.description}
-        members={team.members}
-        ctaText={team.ctaText}
-        ctaLink={team.ctaLink}
-      />
-      <SponsorComponent
-        title={sponsor.title}
-        description={sponsor.description}
-        ctaText={sponsor.ctaText}
-        ctaLink={sponsor.ctaLink}
-      />
-      <ContactComponent 
-        title={contact.title}
-        description={contact.description}
-        ctaText={contact.ctaText}
-        ctaLink={contact.ctaLink}
-      />
-      <FooterComponent 
-        logo={footer.logo} 
-        darkMode={isDarkMode}
-        socialLinks={footer.socialLinks} 
-        copyright={footer.copyright}
-      />
+    <div className={`bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-100 min-h-screen`}>
+      <div className="container mx-auto py-10 px-4">
+        <div className="flex justify-between items-center mb-4">
+          <img src={darkMode ? logo.dark : logo.light} alt="Logo" className="h-12" />
+          <div className="flex">
+            <button onClick={toggleDarkMode} className="text-gray-600 dark:text-gray-300 mr-2">
+              {darkMode ? <span>&#9728;</span> : <span>&#9728;</span>}
+            </button>
+            <button onClick={() => alert('Language changed!')} className="text-gray-600 dark:text-gray-300">
+              EN
+            </button>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className={`bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md ${darkMode ? 'dark' : ''}`}>
+            <h2 className="text-2xl font-semibold mb-4">Day 1 - {day1.date}</h2>
+            <p className="text-lg font-medium mb-4 text-gray-600 dark:text-gray-300">
+              {day1.day}
+            </p>
+            <div className="space-y-8">
+              {day1.events.map((event, index) => (
+                <EventComponent key={index} event={event} darkMode={darkMode} />
+              ))}
+            </div>
+          </div>
+          <div className={`bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md ${darkMode ? 'dark' : ''}`}>
+            <hr className="border-t border-gray-300 dark:border-gray-700 my-8 md:hidden" />
+            <h2 className="text-2xl font-semibold mb-4">Day 2 - {day2.date}</h2>
+            <p className="text-lg font-medium mb-4 text-gray-600 dark:text-gray-300">
+              {day2.day}
+            </p>
+            <div className="space-y-8">
+              {day2.events.map((event, index) => (
+                <EventComponent key={index} event={event} darkMode={darkMode} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Landing;
+export default VenuePage;
