@@ -96,40 +96,64 @@
     "description": "The magic-makers behind NetComDayz!",
     "members": [
       {
-        "name": "Rabii El Haili",
-        "position": "Team Leader",
-        "image": "https://media.licdn.com/dms/image/C4D03AQFIhtFmJF2tSQ/profile-displayphoto-shrink_400_400/0/1648424129664?e=1692230400&v=beta&t=TFKONggTolmxAebebfRYmpX1R2jTqx8p8KSTYFlvPSU",
-        "linkedin": "https://www.linkedin.com/in/rab%C3%AF-el-haili-2b7b89180/"
-      },
-      {
-        "name": "Fatima Ezzahrae Taouil",
-        "position": "Sponsoring Team",
-        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
-        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
-      },
-      {
-        "name": "Oussama Hichou",
-        "position": "Hackathon Team",
-        "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
-        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
-      },
-      {
         "name": "Abderrahim Fazazi",
-        "position": "Head of Logistics",
+        "position": "Team Leader",
         "image": "https://media.licdn.com/dms/image/C4E03AQHKBvsVf9uITQ/profile-displayphoto-shrink_400_400/0/1625324388169?e=1692230400&v=beta&t=8lenDDgeKEHQ6qISZLMQ8ySVd_yqgsdITHHUZwZ_CfU",
         "linkedin": "https://www.linkedin.com/in/abderrahim-fazazi-1b88a2216"
       },
       {
+        "name": "Fatima Ezzahrae Taouil",
+        "position": "Head of Management",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
+        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
+      },
+      {
         "name": "Maryam El Mansouri ",
-        "position": "Head of Design",
+        "position": "Marketing Team Leader",
         "image": "https://media.licdn.com/dms/image/D4D03AQE780TAqnQulw/profile-displayphoto-shrink_400_400/0/1680742760888?e=1697068800&v=beta&t=-WQgJj-X_nlr4u3fVw5Unu-x41QK4UlK3idbgx1qLfs",
         "linkedin": "https://www.linkedin.com/in/maryem-el-mansouri-5b6b60195"
       },      
       {
         "name": "Aya El Kamel",
-        "position": "Head of Media",
+        "position": "Marketing Vice Leader",
         "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
         "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
+      },
+      {
+        "name": "Oussama Hichou",
+        "position": "Head of Venue",
+        "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
+        "linkedin": "https://www.linkedin.com/in/oussamahichou/"
+      },
+      {
+        "name": "Walid Rahmani Kehal",
+        "position": "Venue Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQEPaHFECQJFDg/profile-displayphoto-shrink_800_800/0/1667547867562?e=1698883200&v=beta&t=la5oh6oFurdwmiciuczKoAzZb8V9rQUQknofx1mRYD0",
+        "linkedin": "http://linkedin.com/in/walidrahmanikehal"
+      },
+      {
+        "name": "Silia El Ghazi",
+        "position": "Venue Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQEpp7u1MMJqbg/profile-displayphoto-shrink_800_800/0/1687568000742?e=1698883200&v=beta&t=iBtG_H3YIRdKRA50GPpItJF68bEQR5N5G7LUPHfwuDA",
+        "linkedin": "https://www.linkedin.com/in/silia-el-ghazi-98a9ab230"
+      },      
+      {
+        "name": "Hamza Zaani",
+        "position": "Venue Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQFonV5Fj_IIfA/profile-displayphoto-shrink_400_400/0/1688509538871?e=1698883200&v=beta&t=B84DS-xfiAbCsr6b61XuDNfs8ij3_BhQxmQzF5VYjmw",
+        "linkedin": "https://www.linkedin.com/in/zaani-hamza/"
+      },
+      {
+        "name": "Mohammed Dahman",
+        "position": "Venue Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQErHWpkGkQUrQ/profile-displayphoto-shrink_800_800/0/1684702181200?e=1698883200&v=beta&t=WRq_ZUZq3o-_FW6hDrk1ly9Z0Fu7z2Fa7bWQCrZn2NU",
+        "linkedin": "https://www.linkedin.com/in/mohammed-dahman"
+      },      
+      {
+        "name": "Ahlam Ben Imran",
+        "position": "Venue Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
+        "linkedin": "https://www.linkedin.com/in/ahlam-ben-imran-1a4271242"
       }
     ]
   },
