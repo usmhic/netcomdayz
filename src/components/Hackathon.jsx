@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import EventComponent from './Hackathon/Event';
+import EventComponent from './Event';
 
 const HackathonPage = ({ data }) => {
   const { logo, day1, day2, day3 } = data;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import EventComponent from './Venue/Event';
+import EventComponent from './Event';
 
 const VenuePage = ({ data }) => {
   const { logo, day1, day2 } = data;
