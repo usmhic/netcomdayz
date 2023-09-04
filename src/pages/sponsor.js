@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const PartnerRedirect = () => {
   useEffect(() => {
     const emailSubject = encodeURIComponent('Sponsorship Inquiries');
-    window.location.href = `mailto:oussama@netcomdayz.com?subject=${emailSubject}`;
+    window.location.href = `mailto:netcomdayz@gmail.com?subject=${emailSubject}`;
   }, []);
 
   return (

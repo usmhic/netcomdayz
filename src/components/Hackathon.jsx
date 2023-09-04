@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import EventComponent from './Event';
 
-const HackathonPage = ({ data }) => {
+const Hackathon = ({ data }) => {
   const { logo, day1, day2, day3 } = data;
   const [darkMode, setDarkMode] = useState(false);
 
@@ -65,4 +65,4 @@ const HackathonPage = ({ data }) => {
   );
 };
 
-export default HackathonPage;
+export default Hackathon;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiCalendar, FiClock, FiUsers, FiCoffee, FiUserPlus, FiMapPin, FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
-const EventComponent = ({ event }) => {
+const Event = ({ event }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const renderCategoryIcon = () => {
@@ -105,4 +105,4 @@ const EventComponent = ({ event }) => {
   );
 };
 
-export default EventComponent;
+export default Event;

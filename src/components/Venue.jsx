@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import EventComponent from './Event';
+import Event from './Event';
 
-const VenuePage = ({ data }) => {
+const Venue = ({ data }) => {
   const { logo, day1, day2 } = data;
   const [darkMode, setDarkMode] = useState(false);
 
@@ -31,7 +31,7 @@ const VenuePage = ({ data }) => {
             </p>
             <div className="space-y-8">
               {day1.events.map((event, index) => (
-                <EventComponent key={index} event={event} darkMode={darkMode} />
+                <Event key={index} event={event} darkMode={darkMode} />
               ))}
             </div>
           </div>
@@ -43,7 +43,7 @@ const VenuePage = ({ data }) => {
             </p>
             <div className="space-y-8">
               {day2.events.map((event, index) => (
-                <EventComponent key={index} event={event} darkMode={darkMode} />
+                <Event key={index} event={event} darkMode={darkMode} />
               ))}
             </div>
           </div>
@@ -53,4 +53,4 @@ const VenuePage = ({ data }) => {
   );
 };
 
-export default VenuePage;
+export default Venue;
