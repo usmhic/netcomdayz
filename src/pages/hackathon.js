@@ -1,6 +1,6 @@
 import Hackathon from '../components/Hackathon'
 
-import enData from '/public/locales/en/Hackathon.json';
+import enData from '/public/locales/en/hackathon.json';
 
 function App() {
   return (
