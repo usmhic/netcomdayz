@@ -1,11 +1,11 @@
-import VenuePage from '../components/Venue'
+import Venue from '../components/Venue'
 
 import enData from '/public/locales/en/venue.json';
 
 function App() {
   return (
     <>
-      <VenuePage data={enData} />
+      <Venue data={enData} />
     </>
   );
 }

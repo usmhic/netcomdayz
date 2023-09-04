@@ -1,11 +1,11 @@
-import HackathonPage from '../components/Hackathon'
+import Hackathon from '../components/Hackathon'
 
 import enData from '/public/locales/en/Hackathon.json';
 
 function App() {
   return (
     <>
-      <HackathonPage data={enData} />
+      <Hackathon data={enData} />
     </>
   );
 }
