@@ -4,7 +4,7 @@
     "dark": "/assets/logo/white-trans.png"
   },
   "day1": {
-    "date":"29 September 2023",
+    "date":"6 October 2023",
     "day":"Friday",
     "events": [
       {
@@ -64,7 +64,7 @@
     ]
   },  
   "day2": {
-    "date":"30 September 2023",
+    "date":"7 October 2023",
     "day":"Saturday",
     "events": [
       {
@@ -133,7 +133,7 @@
     ]
   },  
   "day3": {
-    "date":"1 October 2023",
+    "date":"8 October 2023",
     "day":"Sunday",
     "events": [
       {

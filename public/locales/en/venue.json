@@ -4,15 +4,15 @@
     "dark": "/assets/logo/white-trans.png"
   },
   "day1": {
-    "date":"30 September 2023",
-    "day":"Saturday",
+    "date":"6 October 2023",
+    "day":"Friday",
     "events": [
       {
         "name": "Opening Ceremony & 1st Conference",
         "participants": ["Registered Participants"],
         "category": "Conference",
-        "startTime": "4:45 PM",
-        "endTime": "6:00 PM",
+        "startTime": "3:00 PM",
+        "endTime": "5:00 PM",
         "description": "Conference on Scientific Research",
         "subtopics": [
           "Contributions and Vision of Morocco in Scientific Research",
@@ -26,22 +26,22 @@
         "name": "Coffee Break",
         "participants": ["Registered Participants"],
         "category": "Break",
-        "startTime": "6:00 PM",
-        "endTime": "6:45 PM",
+        "startTime": "5:00 PM",
+        "endTime": "6:00 PM",
         "description": "Participants can take a coffee break, network, and enjoy refreshments provided during the break."
       },
       {
         "name": "Networking Session",
         "participants": ["Registered Participants"],
         "category": "Conference",
-        "startTime": "6:45 PM",
+        "startTime": "6:00 PM",
         "endTime": "8:00 PM",
         "description": "Interactive networking session for participants to connect with industry professionals and expand their network."
       }
     ]
   },  
   "day2": {
-    "date":"1 October 2023",
+    "date":"8 October 2023",
     "day":"Sunday",
     "events": [
       {
