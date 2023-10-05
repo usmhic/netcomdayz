@@ -102,12 +102,6 @@
         "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
       },
       {
-        "name": "Fatima Ezzahrae Taouil",
-        "position": "Event Management Team Leader",
-        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
-        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
-      },
-      {
         "name": "Oussama Hichou",
         "position": "Event Content Team Leader",
         "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
@@ -127,33 +121,39 @@
       },
       {
         "name": "Silia El Ghazi",
-        "position": "Event Content Vice Leader",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQEpp7u1MMJqbg/profile-displayphoto-shrink_800_800/0/1687568000742?e=1698883200&v=beta&t=iBtG_H3YIRdKRA50GPpItJF68bEQR5N5G7LUPHfwuDA",
         "linkedin": "https://www.linkedin.com/in/silia-el-ghazi-98a9ab230"
       }, 
       {
         "name": "Walid Rahmani Kehal",
-        "position": "Venue Team",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQEPaHFECQJFDg/profile-displayphoto-shrink_800_800/0/1667547867562?e=1698883200&v=beta&t=la5oh6oFurdwmiciuczKoAzZb8V9rQUQknofx1mRYD0",
         "linkedin": "http://linkedin.com/in/walidrahmanikehal"
       },    
       {
         "name": "Hamza Zaani",
-        "position": "Venue Team",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQFonV5Fj_IIfA/profile-displayphoto-shrink_400_400/0/1688509538871?e=1698883200&v=beta&t=B84DS-xfiAbCsr6b61XuDNfs8ij3_BhQxmQzF5VYjmw",
         "linkedin": "https://www.linkedin.com/in/zaani-hamza/"
       },
       {
         "name": "Mohammed Dahman",
-        "position": "Venue Team",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQErHWpkGkQUrQ/profile-displayphoto-shrink_800_800/0/1684702181200?e=1698883200&v=beta&t=WRq_ZUZq3o-_FW6hDrk1ly9Z0Fu7z2Fa7bWQCrZn2NU",
         "linkedin": "https://www.linkedin.com/in/mohammed-dahman"
       },      
       {
         "name": "Ahlam Ben Imran",
-        "position": "Venue Team",
+        "position": "Content Team",
         "image": "",
         "linkedin": "https://www.linkedin.com/in/ahlam-ben-imran-1a4271242"
+      },
+      {
+        "name": "Fatima Ezzahrae Taouil",
+        "position": "Management Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
+        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
       },
       {
         "name": "Anass Moumni",

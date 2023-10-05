@@ -1,0 +1,108 @@
+{
+    "logo": {
+      "light": "/assets/logo/black-trans.png",
+      "dark": "/assets/logo/white-trans.png"
+    },
+    "eventTitle": "NetComDayz 2023 - A Celebration of Science, Knowledge, and Technology",
+    "eventDates": "October 6-8, 2023",
+    "eventLocation": "Tanger, Morocco",
+    "schedule": {
+      "day1": {
+        "date": "6 October 2023",
+        "day": "Friday",
+        "location": "Médiathèque de Tanger",
+        "events": [
+          {
+            "name": "Public Opening Ceremony",
+            "startTime": "3:00 PM",
+            "description": "Get ready for an exciting tech journey! Join us for the grand opening of NetComDayz 2023."
+          },
+          {
+            "name": "1st Conference: 5G, 6G with IoT, Blockchain",
+            "startTime": "3:30 PM",
+            "description": "Explore the future of technology with discussions on 5G, 6G, IoT, and Blockchain."
+          },
+          {
+            "name": "Coffee Break",
+            "startTime": "5:00 PM",
+            "description": "Take a break, enjoy some refreshments, and network with fellow attendees."
+          },
+          {
+            "name": "2nd Conference: Scientific Research, Open Science & Open Data",
+            "startTime": "5:30 PM",
+            "description": "Delve into the world of scientific research, open science, and open data."
+          }
+        ]
+      },
+      "day2": {
+        "date": "7 October 2023",
+        "day": "Saturday",
+        "locations": [
+          "Technopark de Tanger (Hackathon Participants Only)",
+          "Solicode Tanger (Bootcamp Participants Only)"
+        ],
+        "events": [
+          {
+            "name": "Hackathon Activities",
+            "location": "Technopark de Tanger",
+            "details": {
+              "workSession": {
+                "startTime": "8:00 AM",
+                "endTime": "8:00 PM",
+                "description": "Intensive work session for hackathon participants to collaborate and develop innovative projects."
+              }
+            }
+          },
+          {
+            "name": "Bootcamp Sessions",
+            "location": "Solicode Tanger",
+            "details": {
+              "workshops": {
+                "startTime": "9:00 AM",
+                "endTime": "5:00 PM",
+                "description": "Exclusive workshops for bootcamp participants focusing on advanced technology topics."
+              }
+            }
+          }
+        ]
+      },
+      "day3": {
+        "date": "8 October 2023",
+        "day": "Sunday",
+        "location": "Technopark de Tanger",
+        "events": [
+          {
+            "name": "Workshops",
+            "startTime": "9:30 AM",
+            "endTime": "12:30 PM",
+            "description": "Interactive workshops on Web3 & Blockchain, Cloud/DevOps, AI/ML, and Cybersecurity. Limited spots available, registration required."
+          },
+          {
+            "name": "Hackathon Public Presentations",
+            "startTime": "2:00 PM",
+            "endTime": "4:30 PM",
+            "description": "Participants showcase their innovative projects to the public and expert judges."
+          },
+          {
+            "name": "Musical Pause",
+            "startTime": "4:30 PM",
+            "endTime": "5:00 PM",
+            "description": "Enjoy a musical interlude and relax before the final session."
+          },
+          {
+            "name": "Success Story & Open Discussion",
+            "startTime": "5:00 PM",
+            "endTime": "6:00 PM",
+            "description": "Listen to a success story in the tech industry followed by an open discussion with the audience."
+          },
+          {
+            "name": "Closing Ceremony",
+            "startTime": "6:00 PM",
+            "endTime": "8:00 PM",
+            "description": "Celebrate the achievements of NetComDayz 2023 with a closing ceremony featuring awards, entertainment, and networking opportunities."
+          }
+        ]
+      }
+    }
+  }
+  
