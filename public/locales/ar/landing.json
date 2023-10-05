@@ -96,104 +96,104 @@
     "description": "صناع السحر وراء NetComDayz!",
     "members": [
       {
-        "name": "آية الكامل",
-        "position": "قائد فريق",
+        "name": "Aya El Kamel",
+        "position": "Team Leader",
         "image": "https://media.licdn.com/dms/image/D4E03AQFQKPldQOuiew/profile-displayphoto-shrink_400_400/0/1684243169983?e=1697068800&v=beta&t=kLtkWUtHwBWkIQyI0co1PuGOG16qg35a2yuRhiPC0QU",
         "linkedin": "https://www.linkedin.com/in/aya-el-kamel-a31747254"
       },
       {
-        "name": "فاطمة الزهراء تاويل",
-        "position": "قائد فريق إدارة الفعاليات",
-        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
-        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
-      },
-      {
-        "name": "أسامة هشو",
-        "position": "قائد فريق الحدث",
+        "name": "Oussama Hichou",
+        "position": "Event Content Team Leader",
         "image": "https://media.licdn.com/dms/image/D5603AQG4g-qrCwE3ew/profile-displayphoto-shrink_400_400/0/1691075274198?e=1697068800&v=beta&t=l9gqFUxDsUApd2wruF5VyjLyPsq-vvvdAZ0w72EMhOg",
         "linkedin": "https://www.linkedin.com/in/oussamahichou/"
       },
       {
-        "name": "مريم المنصوري",
-        "position": "قائد فريق الترويج ",
+        "name": "Maryam El Mansouri ",
+        "position": "Event Promoting Team Leader",
         "image": "https://media.licdn.com/dms/image/D4D03AQE780TAqnQulw/profile-displayphoto-shrink_400_400/0/1680742760888?e=1697068800&v=beta&t=-WQgJj-X_nlr4u3fVw5Unu-x41QK4UlK3idbgx1qLfs",
         "linkedin": "https://www.linkedin.com/in/maryem-el-mansouri-5b6b60195"
-      },
+      }, 
       {
-        "name": "أيمن وادي",
-        "position": "نائب قائد فريق إدارة الفعاليات",
+        "name": "Ayman Wadi",
+        "position": "Event Management Leader",
         "image": "https://media.licdn.com/dms/image/C5603AQF8NqCsFj01bA/profile-displayphoto-shrink_400_400/0/1647819949692?e=1698883200&v=beta&t=TF4BihICD89ayD9cizm_P0KCVo7RmDQXsWx2S5Bhftw",
         "linkedin": "https://www.linkedin.com/in/ayman-wadi/"
       },
       {
-        "name": "سيليا الغازي",
-        "position": "نائب قائد فريق موقع الحدث",
+        "name": "Silia El Ghazi",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQEpp7u1MMJqbg/profile-displayphoto-shrink_800_800/0/1687568000742?e=1698883200&v=beta&t=iBtG_H3YIRdKRA50GPpItJF68bEQR5N5G7LUPHfwuDA",
         "linkedin": "https://www.linkedin.com/in/silia-el-ghazi-98a9ab230"
-      },
+      }, 
       {
-        "name": "وليد رحمان كحال",
-        "position": "فريق الموقع",
+        "name": "Walid Rahmani Kehal",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQEPaHFECQJFDg/profile-displayphoto-shrink_800_800/0/1667547867562?e=1698883200&v=beta&t=la5oh6oFurdwmiciuczKoAzZb8V9rQUQknofx1mRYD0",
         "linkedin": "http://linkedin.com/in/walidrahmanikehal"
-      },
+      },    
       {
-        "name": "حمزة زعاني",
-        "position": "فريق الموقع",
+        "name": "Hamza Zaani",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQFonV5Fj_IIfA/profile-displayphoto-shrink_400_400/0/1688509538871?e=1698883200&v=beta&t=B84DS-xfiAbCsr6b61XuDNfs8ij3_BhQxmQzF5VYjmw",
         "linkedin": "https://www.linkedin.com/in/zaani-hamza/"
       },
       {
-        "name": "محمد دحمان",
-        "position": "فريق الموقع",
+        "name": "Mohammed Dahman",
+        "position": "Content Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQErHWpkGkQUrQ/profile-displayphoto-shrink_800_800/0/1684702181200?e=1698883200&v=beta&t=WRq_ZUZq3o-_FW6hDrk1ly9Z0Fu7z2Fa7bWQCrZn2NU",
         "linkedin": "https://www.linkedin.com/in/mohammed-dahman"
-      },
+      },      
       {
-        "name": "أحلام بن عمران",
-        "position": "فريق الموقع",
+        "name": "Ahlam Ben Imran",
+        "position": "Content Team",
         "image": "",
         "linkedin": "https://www.linkedin.com/in/ahlam-ben-imran-1a4271242"
       },
       {
-        "name": "أنس مومني",
-        "position": "فريق الإدارة",
+        "name": "Fatima Ezzahrae Taouil",
+        "position": "Management Team",
+        "image": "https://media.licdn.com/dms/image/D4E03AQGF6d_YcDc3ig/profile-displayphoto-shrink_400_400/0/1689688709116?e=1697068800&v=beta&t=7bHm7vzqqLUz9S5lIAs9k7EIi2f1kNF5UE-sfvfLmuE",
+        "linkedin": "https://www.linkedin.com/in/fatima-ezzahrae-taouil-aa6787266/"
+      },
+      {
+        "name": "Anass Moumni",
+        "position": "Management Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQFyCiaYuWRahw/profile-displayphoto-shrink_400_400/0/1689117931789?e=1698883200&v=beta&t=INmJywPL08F3GqbNKeRlS42-wvIzHlxs4H0d5pdJ0QQ",
         "linkedin": "https://www.linkedin.com/in/anass-moumni/"
       },
       {
-        "name": "حفصة قردام",
-        "position": "فريق الإدارة",
+        "name": "Hafssa Guerdam",
+        "position": "Management Team",
         "image": "https://media.licdn.com/dms/image/C4D03AQG8QZthCvRurQ/profile-displayphoto-shrink_400_400/0/1649085164999?e=1698883200&v=beta&t=AELqoW2TFEeCRAOHkG0h5wjuPh41aT9QdCT7BcY4Cvk",
         "linkedin": "https://www.linkedin.com/in/hafssa-guerdam-2a9707181/"
       },
       {
-        "name": "أسامة بوزفور",
-        "position": "فريق الإدارة",
+        "name": "Oussama Bouzaffour",
+        "position": "Management Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQHkDWmTBwvl6Q/profile-displayphoto-shrink_400_400/0/1688734626664?e=1698883200&v=beta&t=GtMSWGQBsXjd8-L455Bi_eTY5ZzXAMvr5ZXl4kX6pcY",
         "linkedin": "https://www.linkedin.com/in/oussama-bouzaffour-405a3b191/"
       },
       {
-        "name": "فدوى المسكيني",
-        "position": "فريق الإدارة",
+        "name": "Fadwa El meskini",
+        "position": "Management Team",
         "image": "https://media.licdn.com/dms/image/D5603AQHrcCVmZfvFAA/profile-displayphoto-shrink_400_400/0/1693343882843?e=1698883200&v=beta&t=FPpw7qedAboHxAjbgWPtV6a4yVVVveAAeJb5zdSITjk",
         "linkedin": "https://www.linkedin.com/in/fadwa-el-meskini-5873a8259/"
       },
       {
-        "name": "شيماء الدهبي",
-        "position": "فريق الترويج",
+        "name": "Chaimae Dahabi",
+        "position": "Promoting Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQHA93OhG5CtZQ/profile-displayphoto-shrink_400_400/0/1692039245723?e=1698883200&v=beta&t=4yOkh1Wec4eFAoBbqCF_XRfCq6q5_15oB6Jk3LQfw8I",
         "linkedin": "https://www.linkedin.com/in/chaimae-dahabi-383560241/"
       },
       {
-        "name": "وسام زغداد",
-        "position": "فريق الترويج",
+        "name": "Ouissame Zaghdad",
+        "position": "Promoting Team",
         "image": "https://media.licdn.com/dms/image/D4E03AQFhmynuWkCi0w/profile-displayphoto-shrink_400_400/0/1689179354533?e=1698883200&v=beta&t=EjbJWvT1cVzWFY6GV8Y4fNejRVzgIM47S7C_Siv6hUk",
         "linkedin": "https://www.linkedin.com/in/ouissame-zaghdad-4b2796227/"
       },
       {
-        "name": "هناء إيكن",
-        "position": "فريق الترويج",
+        "name": "Hanae Iken",
+        "position": "Promoting Team",
         "image": "https://media.licdn.com/dms/image/D5603AQEBDKWjr11JxA/profile-displayphoto-shrink_400_400/0/1684006323316?e=1698883200&v=beta&t=cqSPRqg835fAjWFyOktlw4JFy_CAr2AymETFl_4hH2k",
         "linkedin": "https://www.linkedin.com/in/hanae-iken-7232a2275/"
       }
